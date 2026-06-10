@@ -109,8 +109,19 @@ Novelty (nearest TRAIN-case Jaccard, same disease; lower = more novel):
 - real holdout: mean 0.642, 21.9% exact copies of a train case (real cases are repetitive).
 - **CVAE: mean 0.545, 9.2% exact copies** — MORE novel than real cases are to each other.
 => The VAE is both more realistic than the simple baselines AND not memorizing. It earns its
-complexity on the pairwise metric. Caveats: single seed; pairwise metric only (higher-order /
-mode-coverage checks pending); downstream Exomiser utility not yet tested.
+complexity on the pairwise metric. Caveats: pairwise metric only (higher-order / mode-coverage
+checks pending); downstream Exomiser utility not yet tested.
+
+Robustness sweep (scripts/robustness.py; PMI-AUC vs real, lower=better; VAE mean+/-sd over 3 seeds):
+  N    diseases cases | floor  marginal ChowLiu | VAE         gap%
+  20   99       5888  | 0.532  0.745    0.609    | 0.575+/-.007  80
+  30   68       5142  | 0.509  0.704    0.596    | 0.583+/-.007  62
+  50   37       3992  | 0.460  0.686    0.583    | 0.561+/-.012  55
+- VAE seed-stable (sd <= 0.012) and beats BOTH baselines at every N. Ordering is consistent.
+- gap% falls at high N mainly because the real-vs-real FLOOR estimate gets noisy with few
+  diseases (N=50 floor 0.46 < 0.5). VAE absolute AUC is best at N=50 (0.561). N=20 = sweet spot
+  (most diseases, cleanest floor). The floor-noise is a metric limitation at small disease
+  counts, not a VAE problem.
 
 ## Revised phasing (Codex review)
 1. ~~Eligibility audit (single-gene + N)~~ DONE — 99 diseases / 5,890 cases viable.
