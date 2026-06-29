@@ -1,0 +1,132 @@
+{
+ "id": "vae_OMIM:610253_1",
+ "subject": {
+  "id": "vae_OMIM:610253_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000252",
+    "label": "Microcephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000540",
+    "label": "Hypermetropia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000716",
+    "label": "Depression"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000722",
+    "label": "Compulsive behaviors"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001249",
+    "label": "Intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001520",
+    "label": "Large for gestational age"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002020",
+    "label": "Gastroesophageal reflux"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011968",
+    "label": "Feeding difficulties"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012450",
+    "label": "Chronic constipation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0033454",
+    "label": "Tube feeding"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:610253",
+    "label": "Kleefstra syndrome 1"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:610253_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:610253",
+     "label": "Kleefstra syndrome 1"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "EHMT1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

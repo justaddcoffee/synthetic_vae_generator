@@ -1,0 +1,72 @@
+{
+ "id": "vae_OMIM:115200_3",
+ "subject": {
+  "id": "vae_OMIM:115200_3"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0001644",
+    "label": "Dilated cardiomyopathy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005110",
+    "label": "Atrial fibrillation"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:115200",
+    "label": "Cardiomyopathy, dilated, 1A"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:115200_3",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:115200",
+     "label": "Cardiomyopathy, dilated, 1A"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "LMNA"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

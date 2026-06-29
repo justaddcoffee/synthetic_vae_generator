@@ -1,0 +1,120 @@
+{
+ "id": "vae_OMIM:142900_1",
+ "subject": {
+  "id": "vae_OMIM:142900_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000343",
+    "label": "Long philtrum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001199",
+    "label": "Triphalangeal thumb"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001631",
+    "label": "Atrial septal defect"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002616",
+    "label": "Aortic root aneurysm"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002984",
+    "label": "Hypoplasia of the radius"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0009778",
+    "label": "Short thumb"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011636",
+    "label": "Abnormal coronary artery origin"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011664",
+    "label": "Left ventricular noncompaction cardiomyopathy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0030241",
+    "label": "Hypoplasia of deltoid muscle"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0031546",
+    "label": "Cardiac conduction abnormality"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:142900",
+    "label": "Holt-Oram syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:142900_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:142900",
+     "label": "Holt-Oram syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "TBX5"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

@@ -1,0 +1,150 @@
+{
+ "id": "vae_OMIM:305400_4",
+ "subject": {
+  "id": "vae_OMIM:305400_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000023",
+    "label": "Inguinal hernia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000049",
+    "label": "Shawl scrotum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000316",
+    "label": "Hypertelorism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000343",
+    "label": "Long philtrum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000463",
+    "label": "Anteverted nares"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000508",
+    "label": "Ptosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000954",
+    "label": "Single transverse palmar crease"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001156",
+    "label": "Brachydactyly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001187",
+    "label": "Hyperextensibility of the finger joints"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002055",
+    "label": "Curved linear dimple below the lower lip"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002750",
+    "label": "Delayed skeletal maturation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003196",
+    "label": "Short nose"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005280",
+    "label": "Depressed nasal bridge"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011800",
+    "label": "Midface retrusion"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012385",
+    "label": "Camptodactyly"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:305400",
+    "label": "Aarskog-Scott syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:305400_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:305400",
+     "label": "Aarskog-Scott syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "FGD1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

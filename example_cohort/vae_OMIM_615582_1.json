@@ -1,0 +1,102 @@
+{
+ "id": "vae_OMIM:615582_1",
+ "subject": {
+  "id": "vae_OMIM:615582_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000218",
+    "label": "High palate"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000316",
+    "label": "Hypertelorism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000978",
+    "label": "Bruising susceptibility"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002036",
+    "label": "Hiatus hernia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002616",
+    "label": "Aortic root aneurysm"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002619",
+    "label": "Varicose veins"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012385",
+    "label": "Camptodactyly"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:615582",
+    "label": "Loeys-Dietz syndrome 5"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:615582_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:615582",
+     "label": "Loeys-Dietz syndrome 5"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "TGFB3"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

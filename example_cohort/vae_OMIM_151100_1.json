@@ -1,0 +1,72 @@
+{
+ "id": "vae_OMIM:151100_1",
+ "subject": {
+  "id": "vae_OMIM:151100_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000635",
+    "label": "Blue irides"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004322",
+    "label": "Short stature"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:151100",
+    "label": "LEOPARD syndrome 1"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:151100_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:151100",
+     "label": "LEOPARD syndrome 1"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "PTPN11"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "vae_OMIM:201910_4",
+ "subject": {
+  "id": "vae_OMIM:201910_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000953",
+    "label": "Hyperpigmentation of the skin"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003154",
+    "label": "Increased circulating ACTH level"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:201910",
+    "label": "Adrenal hyperplasia, congenital, due to 21-hydroxylase deficiency"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:201910_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:201910",
+     "label": "Adrenal hyperplasia, congenital, due to 21-hydroxylase deficiency"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "CYP21A2"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

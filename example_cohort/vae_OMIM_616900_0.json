@@ -1,0 +1,192 @@
+{
+ "id": "vae_OMIM:616900_0",
+ "subject": {
+  "id": "vae_OMIM:616900_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000028",
+    "label": "Cryptorchidism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000158",
+    "label": "Macroglossia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000194",
+    "label": "Open mouth"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000256",
+    "label": "Macrocephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000280",
+    "label": "Coarse facial features"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000341",
+    "label": "Narrow forehead"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000365",
+    "label": "Hearing impairment"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000414",
+    "label": "Bulbous nose"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000486",
+    "label": "Strabismus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000878",
+    "label": "11 pairs of ribs"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001265",
+    "label": "Hyporeflexia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001270",
+    "label": "Motor delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001344",
+    "label": "Absent speech"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001558",
+    "label": "Decreased fetal movement"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002133",
+    "label": "Status epilepticus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002263",
+    "label": "Exaggerated cupid's bow"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002283",
+    "label": "Global brain atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002553",
+    "label": "Highly arched eyebrow"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010804",
+    "label": "Tented upper lip vermilion"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:616900",
+    "label": "Hypotonia, infantile, with psychomotor retardation and characteristic facies 3"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:616900_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:616900",
+     "label": "Hypotonia, infantile, with psychomotor retardation and characteristic facies 3"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "TBCK"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

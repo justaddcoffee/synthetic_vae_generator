@@ -1,0 +1,138 @@
+{
+ "id": "vae_OMIM:610168_2",
+ "subject": {
+  "id": "vae_OMIM:610168_2"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000238",
+    "label": "Hydrocephalus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000316",
+    "label": "Hypertelorism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000369",
+    "label": "Low-set ears"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000520",
+    "label": "Proptosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001166",
+    "label": "Arachnodactyly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001519",
+    "label": "Disproportionate tall stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001655",
+    "label": "Patent foramen ovale"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001659",
+    "label": "Aortic regurgitation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002616",
+    "label": "Aortic root aneurysm"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002816",
+    "label": "Genu recurvatum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005116",
+    "label": "Arterial tortuosity"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010648",
+    "label": "Dermal translucency"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011645",
+    "label": "Dilatation of the sinus of Valsalva"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:610168",
+    "label": "Loeys-Dietz syndrome 2"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:610168_2",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:610168",
+     "label": "Loeys-Dietz syndrome 2"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "TGFBR2"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

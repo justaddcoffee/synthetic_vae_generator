@@ -1,0 +1,102 @@
+{
+ "id": "vae_OMIM:616362_1",
+ "subject": {
+  "id": "vae_OMIM:616362_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000256",
+    "label": "Macrocephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001270",
+    "label": "Motor delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001274",
+    "label": "Agenesis of corpus callosum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001655",
+    "label": "Patent foramen ovale"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002650",
+    "label": "Scoliosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010864",
+    "label": "Severe intellectual disability"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:616362",
+    "label": "Houge-Janssens syndrome 2"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:616362_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:616362",
+     "label": "Houge-Janssens syndrome 2"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "PPP2R1A"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

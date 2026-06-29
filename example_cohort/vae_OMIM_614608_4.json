@@ -1,0 +1,240 @@
+{
+ "id": "vae_OMIM:614608_4",
+ "subject": {
+  "id": "vae_OMIM:614608_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000175",
+    "label": "Cleft palate"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000179",
+    "label": "Thick lower lip vermilion"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000219",
+    "label": "Thin upper lip vermilion"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000280",
+    "label": "Coarse facial features"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000343",
+    "label": "Long philtrum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000431",
+    "label": "Wide nasal bridge"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000505",
+    "label": "Visual impairment"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000527",
+    "label": "Long eyelashes"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000574",
+    "label": "Thick eyebrow"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000752",
+    "label": "Hyperactivity"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000998",
+    "label": "Hypertrichosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001270",
+    "label": "Motor delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001385",
+    "label": "Hip dysplasia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001518",
+    "label": "Small for gestational age"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001561",
+    "label": "Polyhydramnios"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001601",
+    "label": "Laryngomalacia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001631",
+    "label": "Atrial septal defect"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001642",
+    "label": "Pulmonic stenosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001852",
+    "label": "Sandal gap"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002209",
+    "label": "Sparse scalp hair"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002342",
+    "label": "Moderate intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002650",
+    "label": "Scoliosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002719",
+    "label": "Recurrent infections"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004322",
+    "label": "Short stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0009237",
+    "label": "Short 5th finger"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010864",
+    "label": "Severe intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011917",
+    "label": "Short 5th toe"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011968",
+    "label": "Feeding difficulties"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:614608",
+    "label": "Coffin-Siris syndrome 3"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:614608_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:614608",
+     "label": "Coffin-Siris syndrome 3"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SMARCB1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

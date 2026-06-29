@@ -1,0 +1,84 @@
+{
+ "id": "vae_OMIM:620540_4",
+ "subject": {
+  "id": "vae_OMIM:620540_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000729",
+    "label": "Autistic behavior"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001249",
+    "label": "Intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002392",
+    "label": "EEG with polyspike wave complexes"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:620540",
+    "label": "Developmental delay with or without epilepsy"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:620540_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:620540",
+     "label": "Developmental delay with or without epilepsy"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SPTAN1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

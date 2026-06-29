@@ -1,0 +1,126 @@
+{
+ "id": "vae_OMIM:620793_4",
+ "subject": {
+  "id": "vae_OMIM:620793_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0001258",
+    "label": "Spastic paraplegia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001270",
+    "label": "Motor delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001284",
+    "label": "Areflexia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002505",
+    "label": "Loss of ambulation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003121",
+    "label": "Limb joint contracture"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003200",
+    "label": "Ragged-red muscle fibers"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007021",
+    "label": "Pain insensitivity"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0008959",
+    "label": "Distal upper limb muscle weakness"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0008994",
+    "label": "Proximal lower limb muscle weakness"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0009053",
+    "label": "Distal lower limb muscle weakness"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0200012",
+    "label": "Short corpus callosum"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:620793",
+    "label": "Muscular dystrophy, limb-girdle, autosomal recessive 29"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:620793_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:620793",
+     "label": "Muscular dystrophy, limb-girdle, autosomal recessive 29"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SNUPN"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

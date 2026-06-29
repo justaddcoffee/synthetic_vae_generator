@@ -1,0 +1,144 @@
+{
+ "id": "vae_OMIM:621226_0",
+ "subject": {
+  "id": "vae_OMIM:621226_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000726",
+    "label": "Dementia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001251",
+    "label": "Ataxia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001257",
+    "label": "Spasticity"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001260",
+    "label": "Dysarthria"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001288",
+    "label": "Gait disturbance"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001310",
+    "label": "Dysmetria"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001347",
+    "label": "Hyperreflexia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002075",
+    "label": "Dysdiadochokinesis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002346",
+    "label": "Head tremor"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003202",
+    "label": "Skeletal muscle atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003458",
+    "label": "EMG: myopathic abnormalities"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003484",
+    "label": "Upper limb muscle weakness"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003698",
+    "label": "Difficulty standing"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007340",
+    "label": "Lower limb muscle weakness"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:621226",
+    "label": "Spastic ataxia 11, autosomal dominant"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:621226_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:621226",
+     "label": "Spastic ataxia 11, autosomal dominant"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "TUBA4A"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

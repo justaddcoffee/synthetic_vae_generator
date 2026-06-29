@@ -1,0 +1,138 @@
+{
+ "id": "vae_OMIM:615829_3",
+ "subject": {
+  "id": "vae_OMIM:615829_3"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000378",
+    "label": "Cupped ear"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000739",
+    "label": "Anxiety"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001256",
+    "label": "Mild intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001276",
+    "label": "Hypertonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001285",
+    "label": "Spastic tetraparesis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001288",
+    "label": "Gait disturbance"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002066",
+    "label": "Gait ataxia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002079",
+    "label": "Hypoplasia of the corpus callosum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002465",
+    "label": "Poor speech"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0031936",
+    "label": "Delayed ability to walk"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:615829",
+    "label": "Xia-Gibbs syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:615829_3",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:615829",
+     "label": "Xia-Gibbs syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "AHDC1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

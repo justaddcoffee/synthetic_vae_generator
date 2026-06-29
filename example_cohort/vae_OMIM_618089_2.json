@@ -1,0 +1,102 @@
+{
+ "id": "vae_OMIM:618089_2",
+ "subject": {
+  "id": "vae_OMIM:618089_2"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000219",
+    "label": "Thin upper lip vermilion"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000369",
+    "label": "Low-set ears"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000431",
+    "label": "Wide nasal bridge"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000601",
+    "label": "Hypotelorism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001182",
+    "label": "Tapered finger"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001382",
+    "label": "Joint hypermobility"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011968",
+    "label": "Feeding difficulties"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:618089",
+    "label": "Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:618089_2",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:618089",
+     "label": "Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "FBXO11"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

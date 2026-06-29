@@ -1,0 +1,120 @@
+{
+ "id": "vae_OMIM:621185_3",
+ "subject": {
+  "id": "vae_OMIM:621185_3"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000132",
+    "label": "Menorrhagia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000490",
+    "label": "Deeply set eye"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000787",
+    "label": "Nephrolithiasis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001508",
+    "label": "Failure to thrive"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002014",
+    "label": "Diarrhea"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002015",
+    "label": "Dysphagia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0025336",
+    "label": "Delayed ability to sit"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0025373",
+    "label": "Interictal EEG abnormality"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0032794",
+    "label": "Myoclonic seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:5200057",
+    "label": "Limited pointing"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:621185",
+    "label": "Houge-Janssens syndrome 4"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:621185_3",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:621185",
+     "label": "Houge-Janssens syndrome 4"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "PPP2R5C"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

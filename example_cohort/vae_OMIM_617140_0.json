@@ -1,0 +1,126 @@
+{
+ "id": "vae_OMIM:617140_0",
+ "subject": {
+  "id": "vae_OMIM:617140_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000010",
+    "label": "Recurrent urinary tract infections"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000085",
+    "label": "Horseshoe kidney"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000193",
+    "label": "Bifid uvula"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000483",
+    "label": "Astigmatism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000486",
+    "label": "Strabismus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001159",
+    "label": "Syndactyly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001250",
+    "label": "Seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001622",
+    "label": "Premature birth"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001873",
+    "label": "Thrombocytopenia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003228",
+    "label": "Hypernatremia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0100806",
+    "label": "Sepsis"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:617140",
+    "label": "ZTTK syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:617140_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:617140",
+     "label": "ZTTK syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SON"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

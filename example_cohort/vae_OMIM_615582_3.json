@@ -1,0 +1,102 @@
+{
+ "id": "vae_OMIM:615582_3",
+ "subject": {
+  "id": "vae_OMIM:615582_3"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000193",
+    "label": "Bifid uvula"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000276",
+    "label": "Long face"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000278",
+    "label": "Retrognathia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000316",
+    "label": "Hypertelorism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000977",
+    "label": "Soft skin"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000978",
+    "label": "Bruising susceptibility"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001762",
+    "label": "Talipes equinovarus"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:615582",
+    "label": "Loeys-Dietz syndrome 5"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:615582_3",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:615582",
+     "label": "Loeys-Dietz syndrome 5"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "TGFB3"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

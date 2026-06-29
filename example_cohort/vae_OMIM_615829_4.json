@@ -1,0 +1,102 @@
+{
+ "id": "vae_OMIM:615829_4",
+ "subject": {
+  "id": "vae_OMIM:615829_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000219",
+    "label": "Thin upper lip vermilion"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000508",
+    "label": "Ptosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001249",
+    "label": "Intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002650",
+    "label": "Scoliosis"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:615829",
+    "label": "Xia-Gibbs syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:615829_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:615829",
+     "label": "Xia-Gibbs syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "AHDC1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

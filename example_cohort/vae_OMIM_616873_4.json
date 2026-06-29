@@ -1,0 +1,102 @@
+{
+ "id": "vae_OMIM:616873_4",
+ "subject": {
+  "id": "vae_OMIM:616873_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0002205",
+    "label": "Recurrent respiratory infections"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002720",
+    "label": "Decreased circulating IgA concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002850",
+    "label": "Decreased circulating total IgM"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004315",
+    "label": "Decreased circulating IgG concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0006532",
+    "label": "Recurrent pneumonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010976",
+    "label": "Decreased total B cell count"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0033222",
+    "label": "Inverted CD4:CD8 ratio"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:616873",
+    "label": "Immunodeficiency, common variable, 13"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:616873_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:616873",
+     "label": "Immunodeficiency, common variable, 13"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "IKZF1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

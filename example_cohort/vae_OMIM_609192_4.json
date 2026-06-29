@@ -1,0 +1,108 @@
+{
+ "id": "vae_OMIM:609192_4",
+ "subject": {
+  "id": "vae_OMIM:609192_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000767",
+    "label": "Pectus excavatum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001065",
+    "label": "Striae distensae"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001519",
+    "label": "Disproportionate tall stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001763",
+    "label": "Pes planus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002007",
+    "label": "Frontal bossing"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002650",
+    "label": "Scoliosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005116",
+    "label": "Arterial tortuosity"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010648",
+    "label": "Dermal translucency"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:609192",
+    "label": "Loeys-Dietz syndrome 1"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:609192_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:609192",
+     "label": "Loeys-Dietz syndrome 1"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "TGFBR1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

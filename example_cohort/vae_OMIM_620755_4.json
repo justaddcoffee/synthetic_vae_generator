@@ -1,0 +1,72 @@
+{
+ "id": "vae_OMIM:620755_4",
+ "subject": {
+  "id": "vae_OMIM:620755_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0002373",
+    "label": "Febrile seizure (within the age range of 3 months to 6 years)"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0033258",
+    "label": "Sudden unexpected death in epilepsy"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:620755",
+    "label": "Generalized epilepsy with febrile seizures plus, type 12"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:620755_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:620755",
+     "label": "Generalized epilepsy with febrile seizures plus, type 12"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SLC32A1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

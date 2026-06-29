@@ -1,0 +1,180 @@
+{
+ "id": "vae_OMIM:151660_3",
+ "subject": {
+  "id": "vae_OMIM:151660_3"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000287",
+    "label": "Increased facial adipose tissue"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000821",
+    "label": "Hypothyroidism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000831",
+    "label": "Insulin-resistant diabetes mellitus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000842",
+    "label": "Hyperinsulinemia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000855",
+    "label": "Insulin resistance"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000939",
+    "label": "Osteoporosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001643",
+    "label": "Patent ductus arteriosus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001952",
+    "label": "Glucose intolerance"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002149",
+    "label": "Hyperuricemia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003074",
+    "label": "Hyperglycemia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003124",
+    "label": "Hypercholesterolemia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003141",
+    "label": "Increased LDL cholesterol concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003233",
+    "label": "Decreased HDL cholesterol concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005328",
+    "label": "Progeroid facial appearance"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005978",
+    "label": "Type II diabetes mellitus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0009125",
+    "label": "Lipodystrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011227",
+    "label": "Elevated circulating C-reactive protein concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0030781",
+    "label": "Increased circulating free fatty acid level"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0031185",
+    "label": "Increased circulating NT-proBNP concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0040217",
+    "label": "Elevated hemoglobin A1c"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:151660",
+    "label": "Lipodystrophy, familial partial, type 2"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:151660_3",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:151660",
+     "label": "Lipodystrophy, familial partial, type 2"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "LMNA"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

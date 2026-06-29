@@ -1,0 +1,120 @@
+{
+ "id": "vae_OMIM:620887_0",
+ "subject": {
+  "id": "vae_OMIM:620887_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000252",
+    "label": "Microcephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000543",
+    "label": "Optic disc pallor"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000648",
+    "label": "Optic atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000662",
+    "label": "Nyctalopia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002312",
+    "label": "Clumsiness"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002527",
+    "label": "Falls"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007814",
+    "label": "Retinal pigment epithelial mottling"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012378",
+    "label": "Fatigue"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0030329",
+    "label": "Retinal thinning on OCT"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0030515",
+    "label": "Moderately reduced visual acuity"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:620887",
+    "label": "Multiple mitochondrial dysfunctions syndrome 9B"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:620887_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:620887",
+     "label": "Multiple mitochondrial dysfunctions syndrome 9B"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "FDXR"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

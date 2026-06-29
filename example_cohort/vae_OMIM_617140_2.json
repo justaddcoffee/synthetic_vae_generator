@@ -1,0 +1,186 @@
+{
+ "id": "vae_OMIM:617140_2",
+ "subject": {
+  "id": "vae_OMIM:617140_2"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000160",
+    "label": "Narrow mouth"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000164",
+    "label": "Abnormality of the dentition"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000369",
+    "label": "Low-set ears"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000422",
+    "label": "Abnormal nasal bridge morphology"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000505",
+    "label": "Visual impairment"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000646",
+    "label": "Amblyopia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000752",
+    "label": "Hyperactivity"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000960",
+    "label": "Sacral dimple"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001249",
+    "label": "Intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001250",
+    "label": "Seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001260",
+    "label": "Dysarthria"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001264",
+    "label": "Spastic diplegia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002119",
+    "label": "Ventriculomegaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002282",
+    "label": "Gray matter heterotopia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002650",
+    "label": "Scoliosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002750",
+    "label": "Delayed skeletal maturation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002761",
+    "label": "Generalized joint hypermobility"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011675",
+    "label": "Arrhythmia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011800",
+    "label": "Midface retrusion"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012210",
+    "label": "Abnormal renal morphology"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:617140",
+    "label": "ZTTK syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:617140_2",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:617140",
+     "label": "ZTTK syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SON"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

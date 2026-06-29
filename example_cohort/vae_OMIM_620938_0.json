@@ -1,0 +1,102 @@
+{
+ "id": "vae_OMIM:620938_0",
+ "subject": {
+  "id": "vae_OMIM:620938_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0001249",
+    "label": "Intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001276",
+    "label": "Hypertonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001348",
+    "label": "Brisk reflexes"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002376",
+    "label": "Developmental regression"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010550",
+    "label": "Paraplegia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0031936",
+    "label": "Delayed ability to walk"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:620938",
+    "label": "Spastic paraplegia 93, autosomal recessive"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:620938_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:620938",
+     "label": "Spastic paraplegia 93, autosomal recessive"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "NFU1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

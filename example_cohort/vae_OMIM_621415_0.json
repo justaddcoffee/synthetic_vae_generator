@@ -1,0 +1,168 @@
+{
+ "id": "vae_OMIM:621415_0",
+ "subject": {
+  "id": "vae_OMIM:621415_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000365",
+    "label": "Hearing impairment"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000426",
+    "label": "Prominent nasal bridge"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000540",
+    "label": "Hypermetropia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000729",
+    "label": "Autistic behavior"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000964",
+    "label": "Eczematoid dermatitis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001265",
+    "label": "Hyporeflexia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002066",
+    "label": "Gait ataxia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002315",
+    "label": "Headache"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003396",
+    "label": "Syringomyelia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0006855",
+    "label": "Cerebellar vermis atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007018",
+    "label": "Attention deficit hyperactivity disorder"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0008936",
+    "label": "Axial hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011172",
+    "label": "Complex febrile seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011342",
+    "label": "Mild global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012450",
+    "label": "Chronic constipation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0031936",
+    "label": "Delayed ability to walk"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:621415",
+    "label": "Intellectual developmental disorder, autosomal dominant 77"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:621415_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:621415",
+     "label": "Intellectual developmental disorder, autosomal dominant 77"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "LRRC7"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

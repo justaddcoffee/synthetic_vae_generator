@@ -1,0 +1,96 @@
+{
+ "id": "vae_OMIM:621248_4",
+ "subject": {
+  "id": "vae_OMIM:621248_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000821",
+    "label": "Hypothyroidism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001631",
+    "label": "Atrial septal defect"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001635",
+    "label": "Congestive heart failure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002020",
+    "label": "Gastroesophageal reflux"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002092",
+    "label": "Pulmonary arterial hypertension"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005317",
+    "label": "Increased pulmonary vascular resistance"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:621248",
+    "label": "Pulmonary hypertension, primary, 7"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:621248_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:621248",
+     "label": "Pulmonary hypertension, primary, 7"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SOX17"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

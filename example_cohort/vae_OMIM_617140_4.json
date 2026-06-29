@@ -1,0 +1,174 @@
+{
+ "id": "vae_OMIM:617140_4",
+ "subject": {
+  "id": "vae_OMIM:617140_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000107",
+    "label": "Renal cyst"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000303",
+    "label": "Mandibular prognathia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000494",
+    "label": "Downslanted palpebral fissures"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001260",
+    "label": "Dysarthria"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001270",
+    "label": "Motor delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001763",
+    "label": "Pes planus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002097",
+    "label": "Emphysema"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002118",
+    "label": "Abnormal cerebral ventricle morphology"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002119",
+    "label": "Ventriculomegaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002282",
+    "label": "Gray matter heterotopia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002353",
+    "label": "EEG abnormality"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002360",
+    "label": "Sleep abnormality"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002362",
+    "label": "Shuffling gait"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002761",
+    "label": "Generalized joint hypermobility"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004325",
+    "label": "Decreased body weight"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010864",
+    "label": "Severe intellectual disability"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:617140",
+    "label": "ZTTK syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:617140_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:617140",
+     "label": "ZTTK syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SON"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

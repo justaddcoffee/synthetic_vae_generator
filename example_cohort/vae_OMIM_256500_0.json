@@ -1,0 +1,114 @@
+{
+ "id": "vae_OMIM:256500_0",
+ "subject": {
+  "id": "vae_OMIM:256500_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000989",
+    "label": "Pruritus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001508",
+    "label": "Failure to thrive"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001581",
+    "label": "Recurrent skin infections"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001944",
+    "label": "Dehydration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002099",
+    "label": "Asthma"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002299",
+    "label": "Brittle hair"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003212",
+    "label": "Increased circulating IgE concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0025847",
+    "label": "Fish allergy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0040189",
+    "label": "Scaling skin"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:256500",
+    "label": "Netherton syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:256500_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:256500",
+     "label": "Netherton syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SPINK5"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

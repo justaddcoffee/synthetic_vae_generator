@@ -1,0 +1,132 @@
+{
+ "id": "vae_OMIM:604377_2",
+ "subject": {
+  "id": "vae_OMIM:604377_2"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000508",
+    "label": "Ptosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000574",
+    "label": "Thick eyebrow"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001264",
+    "label": "Spastic diplegia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001310",
+    "label": "Dysmetria"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001337",
+    "label": "Tremor"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001639",
+    "label": "Hypertrophic cardiomyopathy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002066",
+    "label": "Gait ataxia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002151",
+    "label": "Increased circulating lactate concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003438",
+    "label": "Absent Achilles reflex"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003693",
+    "label": "Distal amyotrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004887",
+    "label": "Respiratory failure requiring assisted ventilation"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:604377",
+    "label": "Mitochondrial complex IV deficiency, nuclear type 2"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:604377_2",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:604377",
+     "label": "Mitochondrial complex IV deficiency, nuclear type 2"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SCO2"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

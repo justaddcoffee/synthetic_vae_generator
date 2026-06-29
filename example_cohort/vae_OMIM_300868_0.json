@@ -1,0 +1,336 @@
+{
+ "id": "vae_OMIM:300868_0",
+ "subject": {
+  "id": "vae_OMIM:300868_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000076",
+    "label": "Vesicoureteral reflux"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000113",
+    "label": "Polycystic kidney dysplasia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000201",
+    "label": "Pierre-Robin sequence"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000233",
+    "label": "Thin vermilion border"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000256",
+    "label": "Macrocephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000271",
+    "label": "Abnormality of the face"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000276",
+    "label": "Long face"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000582",
+    "label": "Upslanted palpebral fissure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000717",
+    "label": "Autism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000726",
+    "label": "Dementia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000729",
+    "label": "Autistic behavior"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000739",
+    "label": "Anxiety"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001250",
+    "label": "Seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001270",
+    "label": "Motor delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001321",
+    "label": "Cerebellar hypoplasia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001332",
+    "label": "Dystonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001336",
+    "label": "Myoclonus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001337",
+    "label": "Tremor"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001347",
+    "label": "Hyperreflexia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001367",
+    "label": "Abnormal joint morphology"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001371",
+    "label": "Flexion contracture"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001561",
+    "label": "Polyhydramnios"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002069",
+    "label": "Bilateral tonic-clonic seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002079",
+    "label": "Hypoplasia of the corpus callosum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002090",
+    "label": "Pneumonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002119",
+    "label": "Ventriculomegaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002120",
+    "label": "Cerebral cortical atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002123",
+    "label": "Generalized myoclonic seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002187",
+    "label": "Intellectual disability, profound"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002266",
+    "label": "Focal clonic seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002342",
+    "label": "Moderate intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002445",
+    "label": "Tetraplegia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002510",
+    "label": "Spastic tetraplegia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002521",
+    "label": "Hypsarrhythmia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003155",
+    "label": "Elevated circulating alkaline phosphatase concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003306",
+    "label": "Spinal rigidity"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003429",
+    "label": "CNS hypomyelination"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005280",
+    "label": "Depressed nasal bridge"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010818",
+    "label": "Generalized tonic seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010851",
+    "label": "EEG with burst suppression"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011342",
+    "label": "Mild global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011947",
+    "label": "Respiratory tract infection"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012430",
+    "label": "Cerebral white matter hypoplasia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0034419",
+    "label": "Mitral chordae tendinae rupture"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:300868",
+    "label": "Multiple congenital anomalies-hypotonia-seizures syndrome 2"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:300868_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:300868",
+     "label": "Multiple congenital anomalies-hypotonia-seizures syndrome 2"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "PIGA"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "vae_OMIM:620923_3",
+ "subject": {
+  "id": "vae_OMIM:620923_3"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0002322",
+    "label": "Resting tremor"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002548",
+    "label": "Parkinsonism with favorable response to dopaminergic medication"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:620923",
+    "label": "Parkinson disease 26, autosomal dominant, susceptibility to"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:620923_3",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:620923",
+     "label": "Parkinson disease 26, autosomal dominant, susceptibility to"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "RAB32"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

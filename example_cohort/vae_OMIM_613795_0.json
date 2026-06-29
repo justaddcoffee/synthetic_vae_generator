@@ -1,0 +1,126 @@
+{
+ "id": "vae_OMIM:613795_0",
+ "subject": {
+  "id": "vae_OMIM:613795_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000272",
+    "label": "Malar flattening"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000369",
+    "label": "Low-set ears"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000766",
+    "label": "Abnormal sternum morphology"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000938",
+    "label": "Osteopenia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001056",
+    "label": "Milia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001166",
+    "label": "Arachnodactyly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001363",
+    "label": "Craniosynostosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001519",
+    "label": "Disproportionate tall stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001634",
+    "label": "Mitral valve prolapse"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002650",
+    "label": "Scoliosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002758",
+    "label": "Osteoarthritis"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:613795",
+    "label": "Loeys-Dietz syndrome 3"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:613795_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:613795",
+     "label": "Loeys-Dietz syndrome 3"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SMAD3"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

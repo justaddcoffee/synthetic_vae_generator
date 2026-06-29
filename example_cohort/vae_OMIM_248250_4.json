@@ -1,0 +1,108 @@
+{
+ "id": "vae_OMIM:248250_4",
+ "subject": {
+  "id": "vae_OMIM:248250_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000010",
+    "label": "Recurrent urinary tract infections"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000848",
+    "label": "Increased circulating renin concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000859",
+    "label": "Increased circulating aldosterone concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002150",
+    "label": "Hypercalciuria"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002917",
+    "label": "Hypomagnesemia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012587",
+    "label": "Macroscopic hematuria"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012608",
+    "label": "Hypermagnesiuria"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0034049",
+    "label": "Elevated urinary prostaglandin E2 level"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:248250",
+    "label": "Hypomagnesemia 3, renal"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:248250_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:248250",
+     "label": "Hypomagnesemia 3, renal"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "CLDN16"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

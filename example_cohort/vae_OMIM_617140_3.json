@@ -1,0 +1,144 @@
+{
+ "id": "vae_OMIM:617140_3",
+ "subject": {
+  "id": "vae_OMIM:617140_3"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000107",
+    "label": "Renal cyst"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000164",
+    "label": "Abnormality of the dentition"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000369",
+    "label": "Low-set ears"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000505",
+    "label": "Visual impairment"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001167",
+    "label": "Abnormal finger morphology"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001273",
+    "label": "Abnormal corpus callosum morphology"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002119",
+    "label": "Ventriculomegaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002282",
+    "label": "Gray matter heterotopia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002553",
+    "label": "Highly arched eyebrow"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002761",
+    "label": "Generalized joint hypermobility"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003228",
+    "label": "Hypernatremia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011800",
+    "label": "Midface retrusion"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011968",
+    "label": "Feeding difficulties"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:617140",
+    "label": "ZTTK syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:617140_3",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:617140",
+     "label": "ZTTK syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SON"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

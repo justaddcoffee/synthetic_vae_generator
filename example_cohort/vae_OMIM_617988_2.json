@@ -1,0 +1,174 @@
+{
+ "id": "vae_OMIM:617988_2",
+ "subject": {
+  "id": "vae_OMIM:617988_2"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000280",
+    "label": "Coarse facial features"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000293",
+    "label": "Full cheeks"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000341",
+    "label": "Narrow forehead"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000348",
+    "label": "High forehead"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000486",
+    "label": "Strabismus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001272",
+    "label": "Cerebellar atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001310",
+    "label": "Dysmetria"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001347",
+    "label": "Hyperreflexia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002015",
+    "label": "Dysphagia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002273",
+    "label": "Tetraparesis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002299",
+    "label": "Brittle hair"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002378",
+    "label": "Hand tremor"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002650",
+    "label": "Scoliosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003429",
+    "label": "CNS hypomyelination"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003487",
+    "label": "Babinski sign"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0008936",
+    "label": "Axial hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011344",
+    "label": "Severe global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0033725",
+    "label": "Thin corpus callosum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0045075",
+    "label": "Sparse eyebrow"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:617988",
+    "label": "Jaberi-Elahi syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:617988_2",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:617988",
+     "label": "Jaberi-Elahi syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "GTPBP2"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

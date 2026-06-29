@@ -1,0 +1,114 @@
+{
+ "id": "vae_OMIM:606658_1",
+ "subject": {
+  "id": "vae_OMIM:606658_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0001251",
+    "label": "Ataxia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001260",
+    "label": "Dysarthria"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001265",
+    "label": "Hyporeflexia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002317",
+    "label": "Unsteady gait"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002346",
+    "label": "Head tremor"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002378",
+    "label": "Hand tremor"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002442",
+    "label": "Dyscalculia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0006855",
+    "label": "Cerebellar vermis atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0031629",
+    "label": "Impaired tandem gait"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:606658",
+    "label": "Spinocerebellar ataxia 15"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:606658_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:606658",
+     "label": "Spinocerebellar ataxia 15"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "ITPR1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

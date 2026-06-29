@@ -1,0 +1,114 @@
+{
+ "id": "vae_OMIM:154400_3",
+ "subject": {
+  "id": "vae_OMIM:154400_3"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000347",
+    "label": "Micrognathia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000365",
+    "label": "Hearing impairment"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000377",
+    "label": "Abnormal pinna morphology"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000494",
+    "label": "Downslanted palpebral fissures"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001172",
+    "label": "Abnormal thumb morphology"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001249",
+    "label": "Intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002974",
+    "label": "Radioulnar synostosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007646",
+    "label": "Absent lower eyelashes"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011800",
+    "label": "Midface retrusion"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:154400",
+    "label": "Acrofacial dysostosis 1, Nager type"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:154400_3",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:154400",
+     "label": "Acrofacial dysostosis 1, Nager type"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SF3B4"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

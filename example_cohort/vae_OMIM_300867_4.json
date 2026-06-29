@@ -1,0 +1,108 @@
+{
+ "id": "vae_OMIM:300867_4",
+ "subject": {
+  "id": "vae_OMIM:300867_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000252",
+    "label": "Microcephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001511",
+    "label": "Intrauterine growth retardation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002719",
+    "label": "Recurrent infections"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004322",
+    "label": "Short stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004325",
+    "label": "Decreased body weight"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0031936",
+    "label": "Delayed ability to walk"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:300867",
+    "label": "Kabuki syndrome 2"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:300867_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:300867",
+     "label": "Kabuki syndrome 2"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "KDM6A"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

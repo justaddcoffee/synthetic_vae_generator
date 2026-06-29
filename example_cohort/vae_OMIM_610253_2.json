@@ -1,0 +1,114 @@
+{
+ "id": "vae_OMIM:610253_2",
+ "subject": {
+  "id": "vae_OMIM:610253_2"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0001249",
+    "label": "Intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001382",
+    "label": "Joint hypermobility"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001518",
+    "label": "Small for gestational age"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001520",
+    "label": "Large for gestational age"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002719",
+    "label": "Recurrent infections"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012450",
+    "label": "Chronic constipation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0033454",
+    "label": "Tube feeding"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:610253",
+    "label": "Kleefstra syndrome 1"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:610253_2",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:610253",
+     "label": "Kleefstra syndrome 1"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "EHMT1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

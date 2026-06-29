@@ -1,0 +1,108 @@
+{
+ "id": "vae_OMIM:620985_4",
+ "subject": {
+  "id": "vae_OMIM:620985_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000023",
+    "label": "Inguinal hernia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000276",
+    "label": "Long face"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000490",
+    "label": "Deeply set eye"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000494",
+    "label": "Downslanted palpebral fissures"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001763",
+    "label": "Pes planus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002389",
+    "label": "Cavum septum pellucidum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010648",
+    "label": "Dermal translucency"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0100023",
+    "label": "Recurrent hand flapping"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:620985",
+    "label": "Karayol-Borroto-Haghshenas neurodevelopmental syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:620985_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:620985",
+     "label": "Karayol-Borroto-Haghshenas neurodevelopmental syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "MSL2"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

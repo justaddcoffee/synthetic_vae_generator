@@ -1,0 +1,150 @@
+{
+ "id": "vae_OMIM:609192_1",
+ "subject": {
+  "id": "vae_OMIM:609192_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000193",
+    "label": "Bifid uvula"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000218",
+    "label": "High palate"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000272",
+    "label": "Malar flattening"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000278",
+    "label": "Retrognathia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000369",
+    "label": "Low-set ears"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000977",
+    "label": "Soft skin"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001065",
+    "label": "Striae distensae"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001363",
+    "label": "Craniosynostosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001382",
+    "label": "Joint hypermobility"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001634",
+    "label": "Mitral valve prolapse"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001653",
+    "label": "Mitral regurgitation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001763",
+    "label": "Pes planus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002616",
+    "label": "Aortic root aneurysm"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002650",
+    "label": "Scoliosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004937",
+    "label": "Pulmonary artery aneurysm"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:609192",
+    "label": "Loeys-Dietz syndrome 1"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:609192_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:609192",
+     "label": "Loeys-Dietz syndrome 1"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "TGFBR1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

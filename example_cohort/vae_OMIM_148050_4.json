@@ -1,0 +1,138 @@
+{
+ "id": "vae_OMIM:148050_4",
+ "subject": {
+  "id": "vae_OMIM:148050_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000294",
+    "label": "Low anterior hairline"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000574",
+    "label": "Thick eyebrow"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000664",
+    "label": "Synophrys"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000729",
+    "label": "Autistic behavior"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001249",
+    "label": "Intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001270",
+    "label": "Motor delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001572",
+    "label": "Macrodontia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002360",
+    "label": "Sleep abnormality"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002373",
+    "label": "Febrile seizure (within the age range of 3 months to 6 years)"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004322",
+    "label": "Short stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007018",
+    "label": "Attention deficit hyperactivity disorder"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:148050",
+    "label": "KBG syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:148050_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:148050",
+     "label": "KBG syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "ANKRD11"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

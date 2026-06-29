@@ -1,0 +1,84 @@
+{
+ "id": "vae_OMIM:248250_0",
+ "subject": {
+  "id": "vae_OMIM:248250_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000010",
+    "label": "Recurrent urinary tract infections"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002150",
+    "label": "Hypercalciuria"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002917",
+    "label": "Hypomagnesemia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003165",
+    "label": "Elevated circulating parathyroid hormone level"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:248250",
+    "label": "Hypomagnesemia 3, renal"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:248250_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:248250",
+     "label": "Hypomagnesemia 3, renal"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "CLDN16"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

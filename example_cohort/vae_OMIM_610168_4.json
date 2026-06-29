@@ -1,0 +1,102 @@
+{
+ "id": "vae_OMIM:610168_4",
+ "subject": {
+  "id": "vae_OMIM:610168_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000175",
+    "label": "Cleft palate"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000520",
+    "label": "Proptosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001075",
+    "label": "Atrophic scars"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001181",
+    "label": "Adducted thumb"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001382",
+    "label": "Joint hypermobility"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001631",
+    "label": "Atrial septal defect"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001762",
+    "label": "Talipes equinovarus"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:610168",
+    "label": "Loeys-Dietz syndrome 2"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:610168_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:610168",
+     "label": "Loeys-Dietz syndrome 2"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "TGFBR2"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

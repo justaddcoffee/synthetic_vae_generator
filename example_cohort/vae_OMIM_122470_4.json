@@ -1,0 +1,204 @@
+{
+ "id": "vae_OMIM:122470_4",
+ "subject": {
+  "id": "vae_OMIM:122470_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000175",
+    "label": "Cleft palate"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000218",
+    "label": "High palate"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000219",
+    "label": "Thin upper lip vermilion"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000347",
+    "label": "Micrognathia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000369",
+    "label": "Low-set ears"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000527",
+    "label": "Long eyelashes"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000574",
+    "label": "Thick eyebrow"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000664",
+    "label": "Synophrys"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000687",
+    "label": "Widely spaced teeth"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000954",
+    "label": "Single transverse palmar crease"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001007",
+    "label": "Hirsutism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001249",
+    "label": "Intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001276",
+    "label": "Hypertonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002020",
+    "label": "Gastroesophageal reflux"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002162",
+    "label": "Low posterior hairline"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002714",
+    "label": "Downturned corners of mouth"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005280",
+    "label": "Depressed nasal bridge"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007665",
+    "label": "Curly eyelashes"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0008897",
+    "label": "Postnatal growth retardation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011968",
+    "label": "Feeding difficulties"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0030148",
+    "label": "Heart murmur"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0200055",
+    "label": "Small hand"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:122470",
+    "label": "Cornelia de Lange syndrome 1"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:122470_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:122470",
+     "label": "Cornelia de Lange syndrome 1"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "NIPBL"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

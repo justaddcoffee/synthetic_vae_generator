@@ -1,0 +1,102 @@
+{
+ "id": "vae_OMIM:621415_3",
+ "subject": {
+  "id": "vae_OMIM:621415_3"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000098",
+    "label": "Tall stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000601",
+    "label": "Hypotelorism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000768",
+    "label": "Pectus carinatum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001763",
+    "label": "Pes planus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002342",
+    "label": "Moderate intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007018",
+    "label": "Attention deficit hyperactivity disorder"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007565",
+    "label": "Multiple cafe-au-lait spots"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:621415",
+    "label": "Intellectual developmental disorder, autosomal dominant 77"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:621415_3",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:621415",
+     "label": "Intellectual developmental disorder, autosomal dominant 77"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "LRRC7"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

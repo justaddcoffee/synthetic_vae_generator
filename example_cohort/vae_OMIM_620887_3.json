@@ -1,0 +1,138 @@
+{
+ "id": "vae_OMIM:620887_3",
+ "subject": {
+  "id": "vae_OMIM:620887_3"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000365",
+    "label": "Hearing impairment"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000662",
+    "label": "Nyctalopia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001250",
+    "label": "Seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001251",
+    "label": "Ataxia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001272",
+    "label": "Cerebellar atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001276",
+    "label": "Hypertonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001298",
+    "label": "Encephalopathy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001999",
+    "label": "Abnormal facial shape"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002376",
+    "label": "Developmental regression"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002527",
+    "label": "Falls"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007814",
+    "label": "Retinal pigment epithelial mottling"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012531",
+    "label": "Pain"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:620887",
+    "label": "Multiple mitochondrial dysfunctions syndrome 9B"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:620887_3",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:620887",
+     "label": "Multiple mitochondrial dysfunctions syndrome 9B"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "FDXR"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

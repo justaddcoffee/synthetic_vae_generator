@@ -1,0 +1,126 @@
+{
+ "id": "vae_OMIM:616975_1",
+ "subject": {
+  "id": "vae_OMIM:616975_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000256",
+    "label": "Macrocephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000391",
+    "label": "Thickened helices"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000396",
+    "label": "Overfolded helix"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000463",
+    "label": "Anteverted nares"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000486",
+    "label": "Strabismus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000722",
+    "label": "Compulsive behaviors"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000729",
+    "label": "Autistic behavior"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000878",
+    "label": "11 pairs of ribs"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004322",
+    "label": "Short stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011304",
+    "label": "Broad thumb"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:616975",
+    "label": "Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:616975_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:616975",
+     "label": "Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "RERE"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

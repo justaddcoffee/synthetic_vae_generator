@@ -1,0 +1,270 @@
+{
+ "id": "vae_OMIM:621304_4",
+ "subject": {
+  "id": "vae_OMIM:621304_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000154",
+    "label": "Wide mouth"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000194",
+    "label": "Open mouth"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000218",
+    "label": "High palate"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000252",
+    "label": "Microcephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000369",
+    "label": "Low-set ears"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000400",
+    "label": "Macrotia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000463",
+    "label": "Anteverted nares"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000486",
+    "label": "Strabismus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000508",
+    "label": "Ptosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000729",
+    "label": "Autistic behavior"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000733",
+    "label": "Motor stereotypy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001249",
+    "label": "Intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001344",
+    "label": "Absent speech"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001763",
+    "label": "Pes planus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002007",
+    "label": "Frontal bossing"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002015",
+    "label": "Dysphagia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002059",
+    "label": "Cerebral atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002069",
+    "label": "Bilateral tonic-clonic seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002119",
+    "label": "Ventriculomegaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002136",
+    "label": "Broad-based gait"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002360",
+    "label": "Sleep abnormality"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002373",
+    "label": "Febrile seizure (within the age range of 3 months to 6 years)"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002376",
+    "label": "Developmental regression"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004322",
+    "label": "Short stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004325",
+    "label": "Decreased body weight"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005484",
+    "label": "Secondary microcephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007359",
+    "label": "Focal-onset seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010747",
+    "label": "Medial flaring of the eyebrow"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010864",
+    "label": "Severe intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011400",
+    "label": "Abnormal CNS myelination"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012469",
+    "label": "Infantile spasms"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0031936",
+    "label": "Delayed ability to walk"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0033725",
+    "label": "Thin corpus callosum"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:621304",
+    "label": "Developmental and epileptic encephalopathy 119"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:621304_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:621304",
+     "label": "Developmental and epileptic encephalopathy 119"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "RNU2-2"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

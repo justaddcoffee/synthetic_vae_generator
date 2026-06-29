@@ -1,0 +1,144 @@
+{
+ "id": "vae_OMIM:305400_0",
+ "subject": {
+  "id": "vae_OMIM:305400_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000028",
+    "label": "Cryptorchidism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000049",
+    "label": "Shawl scrotum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000343",
+    "label": "Long philtrum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000349",
+    "label": "Widow's peak"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000463",
+    "label": "Anteverted nares"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001169",
+    "label": "Broad palm"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001187",
+    "label": "Hyperextensibility of the finger joints"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001769",
+    "label": "Broad foot"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002007",
+    "label": "Frontal bossing"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002750",
+    "label": "Delayed skeletal maturation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003196",
+    "label": "Short nose"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004209",
+    "label": "Clinodactyly of the 5th finger"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004322",
+    "label": "Short stature"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:305400",
+    "label": "Aarskog-Scott syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:305400_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:305400",
+     "label": "Aarskog-Scott syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "FGD1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

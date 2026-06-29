@@ -1,0 +1,120 @@
+{
+ "id": "vae_OMIM:151660_1",
+ "subject": {
+  "id": "vae_OMIM:151660_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0001397",
+    "label": "Hepatic steatosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001513",
+    "label": "Obesity"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001733",
+    "label": "Pancreatitis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002155",
+    "label": "Hypertriglyceridemia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003124",
+    "label": "Hypercholesterolemia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003635",
+    "label": "Loss of subcutaneous adipose tissue in limbs"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005978",
+    "label": "Type II diabetes mellitus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0009002",
+    "label": "Loss of truncal subcutaneous adipose tissue"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0009125",
+    "label": "Lipodystrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0040217",
+    "label": "Elevated hemoglobin A1c"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:151660",
+    "label": "Lipodystrophy, familial partial, type 2"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:151660_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:151660",
+     "label": "Lipodystrophy, familial partial, type 2"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "LMNA"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

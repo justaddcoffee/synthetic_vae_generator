@@ -1,0 +1,132 @@
+{
+ "id": "vae_OMIM:159550_1",
+ "subject": {
+  "id": "vae_OMIM:159550_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000486",
+    "label": "Strabismus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001347",
+    "label": "Hyperreflexia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001873",
+    "label": "Thrombocytopenia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001875",
+    "label": "Decreased total neutrophil count"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001876",
+    "label": "Pancytopenia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001903",
+    "label": "Anemia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002719",
+    "label": "Recurrent infections"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002863",
+    "label": "Myelodysplasia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005528",
+    "label": "Bone marrow hypocellularity"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005548",
+    "label": "Megakaryocytopenia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007018",
+    "label": "Attention deficit hyperactivity disorder"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011448",
+    "label": "Ankle clonus"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:159550",
+    "label": "Ataxia-pancytopenia syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:159550_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:159550",
+     "label": "Ataxia-pancytopenia syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SAMD9L"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

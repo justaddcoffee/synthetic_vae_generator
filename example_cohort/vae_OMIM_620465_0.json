@@ -1,0 +1,84 @@
+{
+ "id": "vae_OMIM:620465_0",
+ "subject": {
+  "id": "vae_OMIM:620465_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0001337",
+    "label": "Tremor"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002069",
+    "label": "Bilateral tonic-clonic seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002121",
+    "label": "Generalized non-motor (absence) seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002373",
+    "label": "Febrile seizure (within the age range of 3 months to 6 years)"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:620465",
+    "label": "Epilepsy, early-onset, 3, with or without developmental delay"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:620465_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:620465",
+     "label": "Epilepsy, early-onset, 3, with or without developmental delay"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "ATP6V0C"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

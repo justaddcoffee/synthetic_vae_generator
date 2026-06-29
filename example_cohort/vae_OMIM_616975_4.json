@@ -1,0 +1,132 @@
+{
+ "id": "vae_OMIM:616975_4",
+ "subject": {
+  "id": "vae_OMIM:616975_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000407",
+    "label": "Sensorineural hearing impairment"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000494",
+    "label": "Downslanted palpebral fissures"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000729",
+    "label": "Autistic behavior"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001156",
+    "label": "Brachydactyly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001249",
+    "label": "Intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001260",
+    "label": "Dysarthria"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001285",
+    "label": "Spastic tetraparesis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002007",
+    "label": "Frontal bossing"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002066",
+    "label": "Gait ataxia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007018",
+    "label": "Attention deficit hyperactivity disorder"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:616975",
+    "label": "Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:616975_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:616975",
+     "label": "Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "RERE"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

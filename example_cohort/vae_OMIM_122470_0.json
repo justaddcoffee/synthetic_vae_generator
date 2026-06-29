@@ -1,0 +1,162 @@
+{
+ "id": "vae_OMIM:122470_0",
+ "subject": {
+  "id": "vae_OMIM:122470_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000343",
+    "label": "Long philtrum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000347",
+    "label": "Micrognathia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000369",
+    "label": "Low-set ears"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000574",
+    "label": "Thick eyebrow"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000664",
+    "label": "Synophrys"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001007",
+    "label": "Hirsutism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001270",
+    "label": "Motor delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001276",
+    "label": "Hypertonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001377",
+    "label": "Limited elbow extension"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001511",
+    "label": "Intrauterine growth retardation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001642",
+    "label": "Pulmonic stenosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002553",
+    "label": "Highly arched eyebrow"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002714",
+    "label": "Downturned corners of mouth"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004322",
+    "label": "Short stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005280",
+    "label": "Depressed nasal bridge"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0200055",
+    "label": "Small hand"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:122470",
+    "label": "Cornelia de Lange syndrome 1"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:122470_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:122470",
+     "label": "Cornelia de Lange syndrome 1"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "NIPBL"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

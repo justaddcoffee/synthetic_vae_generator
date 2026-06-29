@@ -1,0 +1,102 @@
+{
+ "id": "vae_OMIM:617560_1",
+ "subject": {
+  "id": "vae_OMIM:617560_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000543",
+    "label": "Optic disc pallor"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000639",
+    "label": "Nystagmus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001270",
+    "label": "Motor delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003429",
+    "label": "CNS hypomyelination"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0100543",
+    "label": "Cognitive impairment"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:617560",
+    "label": "Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:617560_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:617560",
+     "label": "Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "NKX6-2"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}
