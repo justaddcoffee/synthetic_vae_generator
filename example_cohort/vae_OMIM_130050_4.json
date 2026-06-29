@@ -1,0 +1,78 @@
+{
+ "id": "vae_OMIM:130050_4",
+ "subject": {
+  "id": "vae_OMIM:130050_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0012727",
+    "label": "Thoracic aortic aneurysm"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0025019",
+    "label": "Arterial rupture"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0030816",
+    "label": "Gingival recession"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:130050",
+    "label": "Ehlers-Danlos syndrome, vascular type"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:130050_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:130050",
+     "label": "Ehlers-Danlos syndrome, vascular type"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "COL3A1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

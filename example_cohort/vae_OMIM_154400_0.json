@@ -1,0 +1,102 @@
+{
+ "id": "vae_OMIM:154400_0",
+ "subject": {
+  "id": "vae_OMIM:154400_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0002974",
+    "label": "Radioulnar synostosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002996",
+    "label": "Limited elbow movement"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007678",
+    "label": "Lacrimal duct stenosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007776",
+    "label": "Sparse lower eyelashes"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0009777",
+    "label": "Absent thumb"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011800",
+    "label": "Midface retrusion"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012385",
+    "label": "Camptodactyly"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:154400",
+    "label": "Acrofacial dysostosis 1, Nager type"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:154400_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:154400",
+     "label": "Acrofacial dysostosis 1, Nager type"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SF3B4"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

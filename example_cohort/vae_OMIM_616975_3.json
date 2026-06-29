@@ -1,0 +1,198 @@
+{
+ "id": "vae_OMIM:616975_3",
+ "subject": {
+  "id": "vae_OMIM:616975_3"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000047",
+    "label": "Hypospadias"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000286",
+    "label": "Epicanthus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000407",
+    "label": "Sensorineural hearing impairment"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000453",
+    "label": "Choanal atresia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000589",
+    "label": "Coloboma"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000664",
+    "label": "Synophrys"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000722",
+    "label": "Compulsive behaviors"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000729",
+    "label": "Autistic behavior"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001156",
+    "label": "Brachydactyly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001159",
+    "label": "Syndactyly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001249",
+    "label": "Intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001285",
+    "label": "Spastic tetraparesis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001511",
+    "label": "Intrauterine growth retardation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001655",
+    "label": "Patent foramen ovale"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002119",
+    "label": "Ventriculomegaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002188",
+    "label": "Delayed CNS myelination"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002194",
+    "label": "Delayed gross motor development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002384",
+    "label": "Focal impaired awareness seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007033",
+    "label": "Cerebellar dysplasia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011968",
+    "label": "Feeding difficulties"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0033725",
+    "label": "Thin corpus callosum"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:616975",
+    "label": "Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:616975_3",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:616975",
+     "label": "Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "RERE"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

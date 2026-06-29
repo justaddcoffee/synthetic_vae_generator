@@ -1,0 +1,108 @@
+{
+ "id": "vae_OMIM:620537_0",
+ "subject": {
+  "id": "vae_OMIM:620537_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0001249",
+    "label": "Intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002069",
+    "label": "Bilateral tonic-clonic seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002133",
+    "label": "Status epilepticus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002353",
+    "label": "EEG abnormality"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0020221",
+    "label": "Clonic seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0032712",
+    "label": "Focal impaired awareness motor seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0032794",
+    "label": "Myoclonic seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0200134",
+    "label": "Epileptic encephalopathy"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:620537",
+    "label": "Developmental and epileptic encephalopathy 112"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:620537_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:620537",
+     "label": "Developmental and epileptic encephalopathy 112"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "KCNH5"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

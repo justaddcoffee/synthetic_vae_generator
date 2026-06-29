@@ -1,0 +1,150 @@
+{
+ "id": "vae_OMIM:606658_2",
+ "subject": {
+  "id": "vae_OMIM:606658_2"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000639",
+    "label": "Nystagmus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001251",
+    "label": "Ataxia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001260",
+    "label": "Dysarthria"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001265",
+    "label": "Hyporeflexia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001272",
+    "label": "Cerebellar atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001337",
+    "label": "Tremor"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001347",
+    "label": "Hyperreflexia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002066",
+    "label": "Gait ataxia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002080",
+    "label": "Intention tremor"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002194",
+    "label": "Delayed gross motor development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002317",
+    "label": "Unsteady gait"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002406",
+    "label": "Limb dysmetria"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0006855",
+    "label": "Cerebellar vermis atrophy"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:606658",
+    "label": "Spinocerebellar ataxia 15"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:606658_2",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:606658",
+     "label": "Spinocerebellar ataxia 15"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "ITPR1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

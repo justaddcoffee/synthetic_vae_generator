@@ -1,0 +1,132 @@
+{
+ "id": "vae_OMIM:618164_0",
+ "subject": {
+  "id": "vae_OMIM:618164_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000276",
+    "label": "Long face"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000286",
+    "label": "Epicanthus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000358",
+    "label": "Posteriorly rotated ears"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000365",
+    "label": "Hearing impairment"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000369",
+    "label": "Low-set ears"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000470",
+    "label": "Short neck"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000506",
+    "label": "Telecanthus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000581",
+    "label": "Blepharophimosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000729",
+    "label": "Autistic behavior"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000768",
+    "label": "Pectus carinatum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001159",
+    "label": "Syndactyly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001643",
+    "label": "Patent ductus arteriosus"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:618164",
+    "label": "Cardiac, facial, and digital anomalies with developmental delay"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:618164_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:618164",
+     "label": "Cardiac, facial, and digital anomalies with developmental delay"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "TRAF7"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

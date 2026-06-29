@@ -1,0 +1,90 @@
+{
+ "id": "vae_OMIM:240300_0",
+ "subject": {
+  "id": "vae_OMIM:240300_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000121",
+    "label": "Nephrocalcinosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000829",
+    "label": "Hypoparathyroidism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002728",
+    "label": "Chronic mucocutaneous candidiasis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0008207",
+    "label": "Primary adrenal insufficiency"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0100806",
+    "label": "Sepsis"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:240300",
+    "label": "Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:240300_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:240300",
+     "label": "Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "AIRE"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

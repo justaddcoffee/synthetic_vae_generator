@@ -1,0 +1,132 @@
+{
+ "id": "vae_OMIM:615829_0",
+ "subject": {
+  "id": "vae_OMIM:615829_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000248",
+    "label": "Brachycephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000337",
+    "label": "Broad forehead"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000540",
+    "label": "Hypermetropia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000582",
+    "label": "Upslanted palpebral fissure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001057",
+    "label": "Aplasia cutis congenita"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001156",
+    "label": "Brachydactyly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001631",
+    "label": "Atrial septal defect"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002342",
+    "label": "Moderate intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005280",
+    "label": "Depressed nasal bridge"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010535",
+    "label": "Sleep apnea"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0100716",
+    "label": "Self-injurious behavior"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:615829",
+    "label": "Xia-Gibbs syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:615829_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:615829",
+     "label": "Xia-Gibbs syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "AHDC1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

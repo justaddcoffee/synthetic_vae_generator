@@ -1,0 +1,138 @@
+{
+ "id": "vae_OMIM:609192_2",
+ "subject": {
+  "id": "vae_OMIM:609192_2"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000218",
+    "label": "High palate"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000268",
+    "label": "Dolichocephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000272",
+    "label": "Malar flattening"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000278",
+    "label": "Retrognathia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000316",
+    "label": "Hypertelorism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000977",
+    "label": "Soft skin"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001056",
+    "label": "Milia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001519",
+    "label": "Disproportionate tall stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001763",
+    "label": "Pes planus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002007",
+    "label": "Frontal bossing"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002616",
+    "label": "Aortic root aneurysm"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002650",
+    "label": "Scoliosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010648",
+    "label": "Dermal translucency"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:609192",
+    "label": "Loeys-Dietz syndrome 1"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:609192_2",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:609192",
+     "label": "Loeys-Dietz syndrome 1"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "TGFBR1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

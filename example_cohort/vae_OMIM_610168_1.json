@@ -1,0 +1,132 @@
+{
+ "id": "vae_OMIM:610168_1",
+ "subject": {
+  "id": "vae_OMIM:610168_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000218",
+    "label": "High palate"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000219",
+    "label": "Thin upper lip vermilion"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000347",
+    "label": "Micrognathia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000369",
+    "label": "Low-set ears"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000494",
+    "label": "Downslanted palpebral fissures"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000974",
+    "label": "Hyperextensible skin"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000977",
+    "label": "Soft skin"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001382",
+    "label": "Joint hypermobility"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001519",
+    "label": "Disproportionate tall stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001643",
+    "label": "Patent ductus arteriosus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002650",
+    "label": "Scoliosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002714",
+    "label": "Downturned corners of mouth"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:610168",
+    "label": "Loeys-Dietz syndrome 2"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:610168_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:610168",
+     "label": "Loeys-Dietz syndrome 2"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "TGFBR2"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

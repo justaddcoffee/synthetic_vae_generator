@@ -1,0 +1,78 @@
+{
+ "id": "vae_OMIM:619375_2",
+ "subject": {
+  "id": "vae_OMIM:619375_2"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0001973",
+    "label": "Autoimmune thrombocytopenia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0100280",
+    "label": "Crohn's disease"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:6000344",
+    "label": "Anti-intrinsic factor antibody positivity"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:619375",
+    "label": "Autoinflammatory syndrome, familial, with or without immunodeficiency"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:619375_2",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:619375",
+     "label": "Autoinflammatory syndrome, familial, with or without immunodeficiency"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SOCS1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

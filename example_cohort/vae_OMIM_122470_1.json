@@ -1,0 +1,222 @@
+{
+ "id": "vae_OMIM:122470_1",
+ "subject": {
+  "id": "vae_OMIM:122470_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000028",
+    "label": "Cryptorchidism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000047",
+    "label": "Hypospadias"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000175",
+    "label": "Cleft palate"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000218",
+    "label": "High palate"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000219",
+    "label": "Thin upper lip vermilion"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000252",
+    "label": "Microcephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000343",
+    "label": "Long philtrum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000527",
+    "label": "Long eyelashes"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000739",
+    "label": "Anxiety"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000954",
+    "label": "Single transverse palmar crease"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001007",
+    "label": "Hirsutism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001156",
+    "label": "Brachydactyly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001249",
+    "label": "Intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001250",
+    "label": "Seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001511",
+    "label": "Intrauterine growth retardation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001631",
+    "label": "Atrial septal defect"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001642",
+    "label": "Pulmonic stenosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002020",
+    "label": "Gastroesophageal reflux"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002119",
+    "label": "Ventriculomegaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002120",
+    "label": "Cerebral cortical atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002714",
+    "label": "Downturned corners of mouth"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007665",
+    "label": "Curly eyelashes"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011968",
+    "label": "Feeding difficulties"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0100716",
+    "label": "Self-injurious behavior"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0200055",
+    "label": "Small hand"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:122470",
+    "label": "Cornelia de Lange syndrome 1"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:122470_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:122470",
+     "label": "Cornelia de Lange syndrome 1"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "NIPBL"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

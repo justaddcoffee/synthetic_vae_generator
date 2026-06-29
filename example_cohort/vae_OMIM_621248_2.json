@@ -1,0 +1,72 @@
+{
+ "id": "vae_OMIM:621248_2",
+ "subject": {
+  "id": "vae_OMIM:621248_2"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0002092",
+    "label": "Pulmonary arterial hypertension"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003493",
+    "label": "Antinuclear antibody positivity"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:621248",
+    "label": "Pulmonary hypertension, primary, 7"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:621248_2",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:621248",
+     "label": "Pulmonary hypertension, primary, 7"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SOX17"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

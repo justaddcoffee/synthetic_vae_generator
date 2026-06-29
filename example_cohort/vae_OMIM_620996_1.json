@@ -1,0 +1,84 @@
+{
+ "id": "vae_OMIM:620996_1",
+ "subject": {
+  "id": "vae_OMIM:620996_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000510",
+    "label": "Rod-cone dystrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000662",
+    "label": "Nyctalopia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007994",
+    "label": "Peripheral visual field loss"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0030515",
+    "label": "Moderately reduced visual acuity"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:620996",
+    "label": "Retinitis pigmentosa 98"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:620996_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:620996",
+     "label": "Retinitis pigmentosa 98"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "TMEM216"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

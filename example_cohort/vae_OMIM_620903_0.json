@@ -1,0 +1,84 @@
+{
+ "id": "vae_OMIM:620903_0",
+ "subject": {
+  "id": "vae_OMIM:620903_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000090",
+    "label": "Nephronophthisis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000105",
+    "label": "Enlarged kidney"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000113",
+    "label": "Polycystic kidney dysplasia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000822",
+    "label": "Hypertension"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:620903",
+    "label": "Polycystic kidney disease 8"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:620903_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:620903",
+     "label": "Polycystic kidney disease 8"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "NEK8"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

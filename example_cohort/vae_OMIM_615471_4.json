@@ -1,0 +1,150 @@
+{
+ "id": "vae_OMIM:615471_4",
+ "subject": {
+  "id": "vae_OMIM:615471_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000343",
+    "label": "Long philtrum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000664",
+    "label": "Synophrys"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001639",
+    "label": "Hypertrophic cardiomyopathy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001903",
+    "label": "Anemia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001987",
+    "label": "Hyperammonemia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002059",
+    "label": "Cerebral atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002151",
+    "label": "Increased circulating lactate concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002283",
+    "label": "Global brain atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002384",
+    "label": "Focal impaired awareness seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0008314",
+    "label": "Decreased activity of mitochondrial complex II"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011924",
+    "label": "Decreased activity of mitochondrial complex III"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012707",
+    "label": "Elevated brain lactate level by MRS"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0030059",
+    "label": "Mitochondrial depletion"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:615471",
+    "label": "Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:615471_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:615471",
+     "label": "Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "FBXL4"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

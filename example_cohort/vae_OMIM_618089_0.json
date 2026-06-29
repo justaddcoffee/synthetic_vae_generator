@@ -1,0 +1,138 @@
+{
+ "id": "vae_OMIM:618089_0",
+ "subject": {
+  "id": "vae_OMIM:618089_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000232",
+    "label": "Everted lower lip vermilion"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000337",
+    "label": "Broad forehead"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000343",
+    "label": "Long philtrum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000520",
+    "label": "Proptosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000637",
+    "label": "Long palpebral fissure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001852",
+    "label": "Sandal gap"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003196",
+    "label": "Short nose"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004322",
+    "label": "Short stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010812",
+    "label": "Short uvula"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012471",
+    "label": "Thick vermilion border"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0031936",
+    "label": "Delayed ability to walk"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:618089",
+    "label": "Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:618089_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:618089",
+     "label": "Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "FBXO11"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

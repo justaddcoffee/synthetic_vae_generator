@@ -1,0 +1,120 @@
+{
+ "id": "vae_OMIM:615502_3",
+ "subject": {
+  "id": "vae_OMIM:615502_3"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000275",
+    "label": "Narrow face"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000286",
+    "label": "Epicanthus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000431",
+    "label": "Wide nasal bridge"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000716",
+    "label": "Depression"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001385",
+    "label": "Hip dysplasia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002020",
+    "label": "Gastroesophageal reflux"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007018",
+    "label": "Attention deficit hyperactivity disorder"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011800",
+    "label": "Midface retrusion"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0031936",
+    "label": "Delayed ability to walk"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:615502",
+    "label": "Intellectual developmental disorder, autosomal dominant 21"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:615502_3",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:615502",
+     "label": "Intellectual developmental disorder, autosomal dominant 21"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "CTCF"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

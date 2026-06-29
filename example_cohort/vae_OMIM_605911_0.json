@@ -1,0 +1,132 @@
+{
+ "id": "vae_OMIM:605911_0",
+ "subject": {
+  "id": "vae_OMIM:605911_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000396",
+    "label": "Overfolded helix"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000822",
+    "label": "Hypertension"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001250",
+    "label": "Seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001259",
+    "label": "Coma"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001518",
+    "label": "Small for gestational age"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001942",
+    "label": "Metabolic acidosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001943",
+    "label": "Hypoglycemia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002910",
+    "label": "Elevated circulating hepatic transaminase concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003215",
+    "label": "Dicarboxylic aciduria"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011220",
+    "label": "Prominent forehead"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0030781",
+    "label": "Increased circulating free fatty acid level"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:6000236",
+    "label": "Inappropriately low concentration of beta-hydroxybutyrate"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:605911",
+    "label": "HMG-CoA synthase-2 deficiency"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:605911_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:605911",
+     "label": "HMG-CoA synthase-2 deficiency"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "HMGCS2"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

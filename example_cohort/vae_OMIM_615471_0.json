@@ -1,0 +1,96 @@
+{
+ "id": "vae_OMIM:615471_0",
+ "subject": {
+  "id": "vae_OMIM:615471_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000347",
+    "label": "Micrognathia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000689",
+    "label": "Dental malocclusion"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002015",
+    "label": "Dysphagia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002151",
+    "label": "Increased circulating lactate concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002283",
+    "label": "Global brain atrophy"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:615471",
+    "label": "Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:615471_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:615471",
+     "label": "Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "FBXL4"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

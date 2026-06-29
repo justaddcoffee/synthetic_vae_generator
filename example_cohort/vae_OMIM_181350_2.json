@@ -1,0 +1,108 @@
+{
+ "id": "vae_OMIM:181350_2",
+ "subject": {
+  "id": "vae_OMIM:181350_2"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0001288",
+    "label": "Gait disturbance"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001771",
+    "label": "Achilles tendon contracture"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003306",
+    "label": "Spinal rigidity"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003693",
+    "label": "Distal amyotrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0008959",
+    "label": "Distal upper limb muscle weakness"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0025258",
+    "label": "Stiff neck"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0030234",
+    "label": "Highly elevated creatine kinase"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0034391",
+    "label": "Elbow contracture"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:181350",
+    "label": "Emery-Dreifuss muscular dystrophy 2, autosomal dominant"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:181350_2",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:181350",
+     "label": "Emery-Dreifuss muscular dystrophy 2, autosomal dominant"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "LMNA"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

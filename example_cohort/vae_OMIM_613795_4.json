@@ -1,0 +1,126 @@
+{
+ "id": "vae_OMIM:613795_4",
+ "subject": {
+  "id": "vae_OMIM:613795_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000268",
+    "label": "Dolichocephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000448",
+    "label": "Prominent nose"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000768",
+    "label": "Pectus carinatum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001337",
+    "label": "Tremor"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001363",
+    "label": "Craniosynostosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001634",
+    "label": "Mitral valve prolapse"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001763",
+    "label": "Pes planus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002650",
+    "label": "Scoliosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002758",
+    "label": "Osteoarthritis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0008419",
+    "label": "Intervertebral disk degeneration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010886",
+    "label": "Osteochondritis dissecans"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:613795",
+    "label": "Loeys-Dietz syndrome 3"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:613795_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:613795",
+     "label": "Loeys-Dietz syndrome 3"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SMAD3"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

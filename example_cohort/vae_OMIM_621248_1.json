@@ -1,0 +1,78 @@
+{
+ "id": "vae_OMIM:621248_1",
+ "subject": {
+  "id": "vae_OMIM:621248_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0001635",
+    "label": "Congestive heart failure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001643",
+    "label": "Patent ductus arteriosus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0033424",
+    "label": "Pulmonary arterial hypertension with lack of acute response to NO challenge"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:621248",
+    "label": "Pulmonary hypertension, primary, 7"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:621248_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:621248",
+     "label": "Pulmonary hypertension, primary, 7"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SOX17"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

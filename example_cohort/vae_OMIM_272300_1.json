@@ -1,0 +1,90 @@
+{
+ "id": "vae_OMIM:272300_1",
+ "subject": {
+  "id": "vae_OMIM:272300_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0002071",
+    "label": "Abnormality of extrapyramidal motor function"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010934",
+    "label": "Xanthinuria"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011814",
+    "label": "Increased urinary hypoxanthine level"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0020222",
+    "label": "Hypohomocysteinemia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0032350",
+    "label": "Sulfocysteinuria"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:272300",
+    "label": "Sulfite oxidase deficiency"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:272300_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:272300",
+     "label": "Sulfite oxidase deficiency"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SUOX"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "id": "vae_OMIM:615582_4",
+ "subject": {
+  "id": "vae_OMIM:615582_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000276",
+    "label": "Long face"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000592",
+    "label": "Blue sclerae"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000978",
+    "label": "Bruising susceptibility"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001653",
+    "label": "Mitral regurgitation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010648",
+    "label": "Dermal translucency"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:615582",
+    "label": "Loeys-Dietz syndrome 5"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:615582_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:615582",
+     "label": "Loeys-Dietz syndrome 5"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "TGFB3"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

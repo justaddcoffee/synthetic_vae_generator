@@ -1,0 +1,138 @@
+{
+ "id": "vae_OMIM:618164_3",
+ "subject": {
+  "id": "vae_OMIM:618164_3"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000220",
+    "label": "Velopharyngeal insufficiency"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000248",
+    "label": "Brachycephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000365",
+    "label": "Hearing impairment"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000470",
+    "label": "Short neck"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000506",
+    "label": "Telecanthus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000508",
+    "label": "Ptosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000581",
+    "label": "Blepharophimosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001488",
+    "label": "Bilateral ptosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001631",
+    "label": "Atrial septal defect"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001643",
+    "label": "Patent ductus arteriosus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002194",
+    "label": "Delayed gross motor development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004322",
+    "label": "Short stature"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:618164",
+    "label": "Cardiac, facial, and digital anomalies with developmental delay"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:618164_3",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:618164",
+     "label": "Cardiac, facial, and digital anomalies with developmental delay"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "TRAF7"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

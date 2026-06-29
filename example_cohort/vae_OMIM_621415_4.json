@@ -1,0 +1,168 @@
+{
+ "id": "vae_OMIM:621415_4",
+ "subject": {
+  "id": "vae_OMIM:621415_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000256",
+    "label": "Macrocephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000283",
+    "label": "Broad face"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000426",
+    "label": "Prominent nasal bridge"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000718",
+    "label": "Aggressive behavior"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000729",
+    "label": "Autistic behavior"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000744",
+    "label": "Low frustration tolerance"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000821",
+    "label": "Hypothyroidism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001249",
+    "label": "Intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001288",
+    "label": "Gait disturbance"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002066",
+    "label": "Gait ataxia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002194",
+    "label": "Delayed gross motor development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007021",
+    "label": "Pain insensitivity"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0009929",
+    "label": "Abnormal columella morphology"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010862",
+    "label": "Delayed fine motor development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011342",
+    "label": "Mild global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012450",
+    "label": "Chronic constipation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0100716",
+    "label": "Self-injurious behavior"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:621415",
+    "label": "Intellectual developmental disorder, autosomal dominant 77"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:621415_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:621415",
+     "label": "Intellectual developmental disorder, autosomal dominant 77"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "LRRC7"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

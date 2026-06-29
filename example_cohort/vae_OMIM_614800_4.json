@@ -1,0 +1,102 @@
+{
+ "id": "vae_OMIM:614800_4",
+ "subject": {
+  "id": "vae_OMIM:614800_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000325",
+    "label": "Triangular face"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001518",
+    "label": "Small for gestational age"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002240",
+    "label": "Hepatomegaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002645",
+    "label": "Wormian bones"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003302",
+    "label": "Spondylolisthesis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004429",
+    "label": "Recurrent viral infections"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0031956",
+    "label": "Elevated circulating aspartate aminotransferase concentration"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:614800",
+    "label": "Short stature, optic nerve atrophy, and Pelger-Huet anomaly"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:614800_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:614800",
+     "label": "Short stature, optic nerve atrophy, and Pelger-Huet anomaly"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "NBAS"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

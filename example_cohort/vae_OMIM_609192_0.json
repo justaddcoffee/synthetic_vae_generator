@@ -1,0 +1,126 @@
+{
+ "id": "vae_OMIM:609192_0",
+ "subject": {
+  "id": "vae_OMIM:609192_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000218",
+    "label": "High palate"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000278",
+    "label": "Retrognathia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000768",
+    "label": "Pectus carinatum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001363",
+    "label": "Craniosynostosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001634",
+    "label": "Mitral valve prolapse"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002616",
+    "label": "Aortic root aneurysm"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004938",
+    "label": "Tortuous cerebral arteries"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005116",
+    "label": "Arterial tortuosity"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005815",
+    "label": "Supernumerary ribs"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010646",
+    "label": "Cervical spine instability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0100775",
+    "label": "Dural ectasia"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:609192",
+    "label": "Loeys-Dietz syndrome 1"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:609192_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:609192",
+     "label": "Loeys-Dietz syndrome 1"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "TGFBR1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

@@ -1,0 +1,162 @@
+{
+ "id": "vae_OMIM:256500_4",
+ "subject": {
+  "id": "vae_OMIM:256500_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000107",
+    "label": "Renal cyst"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000403",
+    "label": "Recurrent otitis media"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000407",
+    "label": "Sensorineural hearing impairment"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000656",
+    "label": "Ectropion"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000989",
+    "label": "Pruritus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001249",
+    "label": "Intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001483",
+    "label": "Eye poking"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001510",
+    "label": "Growth delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002223",
+    "label": "Absent eyebrow"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002257",
+    "label": "Chronic rhinitis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002719",
+    "label": "Recurrent infections"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003228",
+    "label": "Hypernatremia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007381",
+    "label": "Congenital exfoliative erythroderma"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0025811",
+    "label": "Trichorrhexis invaginata"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0040189",
+    "label": "Scaling skin"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0500093",
+    "label": "Food allergy"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:256500",
+    "label": "Netherton syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:256500_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:256500",
+     "label": "Netherton syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SPINK5"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

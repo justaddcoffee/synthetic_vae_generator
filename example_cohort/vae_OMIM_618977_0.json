@@ -1,0 +1,90 @@
+{
+ "id": "vae_OMIM:618977_0",
+ "subject": {
+  "id": "vae_OMIM:618977_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000501",
+    "label": "Glaucoma"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000543",
+    "label": "Optic disc pallor"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000551",
+    "label": "Color vision defect"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000648",
+    "label": "Optic atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0020119",
+    "label": "Abnormal retinal nerve fiber layer morphology"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:618977",
+    "label": "Optic atrophy 12"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:618977_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:618977",
+     "label": "Optic atrophy 12"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "AFG3L2"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

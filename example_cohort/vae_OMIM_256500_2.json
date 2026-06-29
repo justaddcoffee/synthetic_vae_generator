@@ -1,0 +1,126 @@
+{
+ "id": "vae_OMIM:256500_2",
+ "subject": {
+  "id": "vae_OMIM:256500_2"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000498",
+    "label": "Blepharitis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000964",
+    "label": "Eczematoid dermatitis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000989",
+    "label": "Pruritus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001508",
+    "label": "Failure to thrive"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001622",
+    "label": "Premature birth"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002028",
+    "label": "Chronic diarrhea"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003212",
+    "label": "Increased circulating IgE concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007381",
+    "label": "Congenital exfoliative erythroderma"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0009886",
+    "label": "Trichorrhexis nodosa"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0025810",
+    "label": "Ichthyosis linearis circumflexa"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0410017",
+    "label": "Otitis externa"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:256500",
+    "label": "Netherton syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:256500_2",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:256500",
+     "label": "Netherton syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SPINK5"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "id": "vae_OMIM:621226_2",
+ "subject": {
+  "id": "vae_OMIM:621226_2"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000639",
+    "label": "Nystagmus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001152",
+    "label": "Saccadic smooth pursuit"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001251",
+    "label": "Ataxia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001272",
+    "label": "Cerebellar atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001288",
+    "label": "Gait disturbance"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001310",
+    "label": "Dysmetria"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0006895",
+    "label": "Lower limb hypertonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007083",
+    "label": "Hyperactive patellar reflex"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007340",
+    "label": "Lower limb muscle weakness"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012896",
+    "label": "Abnormal motor evoked potentials"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:621226",
+    "label": "Spastic ataxia 11, autosomal dominant"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:621226_2",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:621226",
+     "label": "Spastic ataxia 11, autosomal dominant"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "TUBA4A"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

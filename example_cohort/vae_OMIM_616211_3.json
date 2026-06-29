@@ -1,0 +1,150 @@
+{
+ "id": "vae_OMIM:616211_3",
+ "subject": {
+  "id": "vae_OMIM:616211_3"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000341",
+    "label": "Narrow forehead"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000512",
+    "label": "Abnormal electroretinogram"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000582",
+    "label": "Upslanted palpebral fissure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000817",
+    "label": "Reduced eye contact"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001257",
+    "label": "Spasticity"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001558",
+    "label": "Decreased fetal movement"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002007",
+    "label": "Frontal bossing"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002188",
+    "label": "Delayed CNS myelination"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002273",
+    "label": "Tetraparesis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002353",
+    "label": "EEG abnormality"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0009909",
+    "label": "Uplifted earlobe"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011097",
+    "label": "Epileptic spasm"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0033725",
+    "label": "Thin corpus callosum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0200134",
+    "label": "Epileptic encephalopathy"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:616211",
+    "label": "Developmental and epileptic encephalopathy 28"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:616211_3",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:616211",
+     "label": "Developmental and epileptic encephalopathy 28"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "WWOX"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

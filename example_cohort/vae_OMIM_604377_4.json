@@ -1,0 +1,96 @@
+{
+ "id": "vae_OMIM:604377_4",
+ "subject": {
+  "id": "vae_OMIM:604377_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0002047",
+    "label": "Malignant hyperthermia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003128",
+    "label": "Lactic acidosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003438",
+    "label": "Absent Achilles reflex"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003688",
+    "label": "Cytochrome C oxidase-negative muscle fibers"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007002",
+    "label": "Motor axonal neuropathy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0200049",
+    "label": "Upper limb hypertonia"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:604377",
+    "label": "Mitochondrial complex IV deficiency, nuclear type 2"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:604377_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:604377",
+     "label": "Mitochondrial complex IV deficiency, nuclear type 2"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SCO2"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

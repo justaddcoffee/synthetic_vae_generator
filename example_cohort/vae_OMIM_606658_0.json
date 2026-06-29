@@ -1,0 +1,102 @@
+{
+ "id": "vae_OMIM:606658_0",
+ "subject": {
+  "id": "vae_OMIM:606658_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000640",
+    "label": "Gaze-evoked nystagmus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001260",
+    "label": "Dysarthria"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001272",
+    "label": "Cerebellar atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002015",
+    "label": "Dysphagia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002174",
+    "label": "Postural tremor"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0006855",
+    "label": "Cerebellar vermis atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0008278",
+    "label": "Cerebellar cortical atrophy"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:606658",
+    "label": "Spinocerebellar ataxia 15"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:606658_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:606658",
+     "label": "Spinocerebellar ataxia 15"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "ITPR1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

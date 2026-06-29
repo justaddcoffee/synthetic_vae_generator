@@ -1,0 +1,192 @@
+{
+ "id": "vae_OMIM:621304_2",
+ "subject": {
+  "id": "vae_OMIM:621304_2"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000252",
+    "label": "Microcephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000365",
+    "label": "Hearing impairment"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000490",
+    "label": "Deeply set eye"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000729",
+    "label": "Autistic behavior"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000733",
+    "label": "Motor stereotypy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001249",
+    "label": "Intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001270",
+    "label": "Motor delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001336",
+    "label": "Myoclonus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001344",
+    "label": "Absent speech"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001945",
+    "label": "Fever"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002069",
+    "label": "Bilateral tonic-clonic seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002136",
+    "label": "Broad-based gait"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002360",
+    "label": "Sleep abnormality"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002580",
+    "label": "Volvulus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005484",
+    "label": "Secondary microcephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007359",
+    "label": "Focal-onset seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010819",
+    "label": "Atonic seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010864",
+    "label": "Severe intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0031936",
+    "label": "Delayed ability to walk"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:6000950",
+    "label": "Breath-holding spell"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:621304",
+    "label": "Developmental and epileptic encephalopathy 119"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:621304_2",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:621304",
+     "label": "Developmental and epileptic encephalopathy 119"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "RNU2-2"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

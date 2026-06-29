@@ -1,0 +1,114 @@
+{
+ "id": "vae_OMIM:621154_0",
+ "subject": {
+  "id": "vae_OMIM:621154_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000252",
+    "label": "Microcephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000268",
+    "label": "Dolichocephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000369",
+    "label": "Low-set ears"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002020",
+    "label": "Gastroesophageal reflux"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002421",
+    "label": "Poor head control"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004322",
+    "label": "Short stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0030799",
+    "label": "Scaphocephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0031165",
+    "label": "Multifocal seizures"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0034295",
+    "label": "Reduced cerebral white matter volume"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:621154",
+    "label": "Neurodevelopmental disorder with poor growth, seizures, and brain abnormalities"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:621154_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:621154",
+     "label": "Neurodevelopmental disorder with poor growth, seizures, and brain abnormalities"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SPOUT1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "id": "vae_OMIM:300868_4",
+ "subject": {
+  "id": "vae_OMIM:300868_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000076",
+    "label": "Vesicoureteral reflux"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000463",
+    "label": "Anteverted nares"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000717",
+    "label": "Autism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001348",
+    "label": "Brisk reflexes"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001792",
+    "label": "Small nail"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002079",
+    "label": "Hypoplasia of the corpus callosum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002090",
+    "label": "Pneumonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002119",
+    "label": "Ventriculomegaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002445",
+    "label": "Tetraplegia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002510",
+    "label": "Spastic tetraplegia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005280",
+    "label": "Depressed nasal bridge"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010818",
+    "label": "Generalized tonic seizure"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:300868",
+    "label": "Multiple congenital anomalies-hypotonia-seizures syndrome 2"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:300868_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:300868",
+     "label": "Multiple congenital anomalies-hypotonia-seizures syndrome 2"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "PIGA"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "vae_OMIM:300868_3",
+ "subject": {
+  "id": "vae_OMIM:300868_3"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0002079",
+    "label": "Hypoplasia of the corpus callosum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002421",
+    "label": "Poor head control"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0025404",
+    "label": "Abnormal visual fixation"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:300868",
+    "label": "Multiple congenital anomalies-hypotonia-seizures syndrome 2"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:300868_3",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:300868",
+     "label": "Multiple congenital anomalies-hypotonia-seizures syndrome 2"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "PIGA"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

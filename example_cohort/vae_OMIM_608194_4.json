@@ -1,0 +1,102 @@
+{
+ "id": "vae_OMIM:608194_4",
+ "subject": {
+  "id": "vae_OMIM:608194_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000639",
+    "label": "Nystagmus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000662",
+    "label": "Nyctalopia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001133",
+    "label": "Constriction of peripheral visual field"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001177",
+    "label": "Preaxial hand polydactyly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005110",
+    "label": "Atrial fibrillation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007787",
+    "label": "Posterior subcapsular cataract"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007843",
+    "label": "Attenuation of retinal blood vessels"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:608194",
+    "label": "Cone-rod dystrophy 13"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:608194_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:608194",
+     "label": "Cone-rod dystrophy 13"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "RPGRIP1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "id": "vae_OMIM:615471_1",
+ "subject": {
+  "id": "vae_OMIM:615471_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000286",
+    "label": "Epicanthus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000343",
+    "label": "Long philtrum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001518",
+    "label": "Small for gestational age"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001622",
+    "label": "Premature birth"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001639",
+    "label": "Hypertrophic cardiomyopathy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001655",
+    "label": "Patent foramen ovale"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001987",
+    "label": "Hyperammonemia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002151",
+    "label": "Increased circulating lactate concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002283",
+    "label": "Global brain atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003688",
+    "label": "Cytochrome C oxidase-negative muscle fibers"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:615471",
+    "label": "Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:615471_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:615471",
+     "label": "Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "FBXL4"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

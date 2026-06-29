@@ -1,0 +1,114 @@
+{
+ "id": "vae_OMIM:606693_4",
+ "subject": {
+  "id": "vae_OMIM:606693_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000514",
+    "label": "Slow saccadic eye movements"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000605",
+    "label": "Supranuclear gaze palsy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000716",
+    "label": "Depression"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000726",
+    "label": "Dementia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001257",
+    "label": "Spasticity"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001347",
+    "label": "Hyperreflexia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002067",
+    "label": "Bradykinesia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002172",
+    "label": "Postural instability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003487",
+    "label": "Babinski sign"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:606693",
+    "label": "Kufor-Rakeb syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:606693_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:606693",
+     "label": "Kufor-Rakeb syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "ATP13A2"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "id": "vae_OMIM:618164_2",
+ "subject": {
+  "id": "vae_OMIM:618164_2"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000175",
+    "label": "Cleft palate"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000220",
+    "label": "Velopharyngeal insufficiency"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000316",
+    "label": "Hypertelorism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000358",
+    "label": "Posteriorly rotated ears"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000389",
+    "label": "Chronic otitis media"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000470",
+    "label": "Short neck"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000506",
+    "label": "Telecanthus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000581",
+    "label": "Blepharophimosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000592",
+    "label": "Blue sclerae"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000739",
+    "label": "Anxiety"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001256",
+    "label": "Mild intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001488",
+    "label": "Bilateral ptosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001631",
+    "label": "Atrial septal defect"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002299",
+    "label": "Brittle hair"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005274",
+    "label": "Prominent nasal tip"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011968",
+    "label": "Feeding difficulties"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012385",
+    "label": "Camptodactyly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012745",
+    "label": "Short palpebral fissure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0031936",
+    "label": "Delayed ability to walk"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:618164",
+    "label": "Cardiac, facial, and digital anomalies with developmental delay"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:618164_2",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:618164",
+     "label": "Cardiac, facial, and digital anomalies with developmental delay"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "TRAF7"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

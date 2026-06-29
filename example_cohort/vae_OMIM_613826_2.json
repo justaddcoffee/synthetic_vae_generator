@@ -1,0 +1,90 @@
+{
+ "id": "vae_OMIM:613826_2",
+ "subject": {
+  "id": "vae_OMIM:613826_2"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000512",
+    "label": "Abnormal electroretinogram"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000639",
+    "label": "Nystagmus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007814",
+    "label": "Retinal pigment epithelial mottling"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012045",
+    "label": "Retinal flecks"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0032122",
+    "label": "Very low visual acuity"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:613826",
+    "label": "Leber congenital amaurosis 6"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:613826_2",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:613826",
+     "label": "Leber congenital amaurosis 6"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "RPGRIP1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

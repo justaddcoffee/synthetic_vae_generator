@@ -1,0 +1,108 @@
+{
+ "id": "vae_OMIM:612164_0",
+ "subject": {
+  "id": "vae_OMIM:612164_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0002375",
+    "label": "Hypokinesia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002376",
+    "label": "Developmental regression"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002510",
+    "label": "Spastic tetraplegia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002521",
+    "label": "Hypsarrhythmia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007359",
+    "label": "Focal-onset seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011153",
+    "label": "Focal motor seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011193",
+    "label": "EEG with focal spikes"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012469",
+    "label": "Infantile spasms"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:612164",
+    "label": "Developmental and epileptic encephalopathy 4"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:612164_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:612164",
+     "label": "Developmental and epileptic encephalopathy 4"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "STXBP1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

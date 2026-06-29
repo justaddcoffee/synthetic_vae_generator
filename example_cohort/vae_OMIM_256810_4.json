@@ -1,0 +1,156 @@
+{
+ "id": "vae_OMIM:256810_4",
+ "subject": {
+  "id": "vae_OMIM:256810_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000639",
+    "label": "Nystagmus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000739",
+    "label": "Anxiety"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000821",
+    "label": "Hypothyroidism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000952",
+    "label": "Jaundice"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001508",
+    "label": "Failure to thrive"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002020",
+    "label": "Gastroesophageal reflux"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002151",
+    "label": "Increased circulating lactate concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002365",
+    "label": "Hypoplasia of the brainstem"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0006970",
+    "label": "Periventricular leukomalacia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0008163",
+    "label": "Decreased circulating cortisol level"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0008347",
+    "label": "Decreased activity of mitochondrial complex IV"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011923",
+    "label": "Decreased activity of mitochondrial complex I"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011968",
+    "label": "Feeding difficulties"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0030059",
+    "label": "Mitochondrial depletion"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:256810",
+    "label": "Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:256810_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:256810",
+     "label": "Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "MPV17"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

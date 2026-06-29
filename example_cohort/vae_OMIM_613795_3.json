@@ -1,0 +1,108 @@
+{
+ "id": "vae_OMIM:613795_3",
+ "subject": {
+  "id": "vae_OMIM:613795_3"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000268",
+    "label": "Dolichocephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000767",
+    "label": "Pectus excavatum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001382",
+    "label": "Joint hypermobility"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001519",
+    "label": "Disproportionate tall stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001634",
+    "label": "Mitral valve prolapse"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002036",
+    "label": "Hiatus hernia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002650",
+    "label": "Scoliosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0008419",
+    "label": "Intervertebral disk degeneration"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:613795",
+    "label": "Loeys-Dietz syndrome 3"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:613795_3",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:613795",
+     "label": "Loeys-Dietz syndrome 3"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SMAD3"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

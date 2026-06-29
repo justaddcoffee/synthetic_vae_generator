@@ -1,0 +1,90 @@
+{
+ "id": "vae_OMIM:616873_1",
+ "subject": {
+  "id": "vae_OMIM:616873_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000403",
+    "label": "Recurrent otitis media"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002720",
+    "label": "Decreased circulating IgA concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002850",
+    "label": "Decreased circulating total IgM"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010976",
+    "label": "Decreased total B cell count"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0032219",
+    "label": "Increased proportion of CD4-positive T cells"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:616873",
+    "label": "Immunodeficiency, common variable, 13"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:616873_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:616873",
+     "label": "Immunodeficiency, common variable, 13"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "IKZF1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

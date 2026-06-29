@@ -1,0 +1,108 @@
+{
+ "id": "vae_OMIM:616211_4",
+ "subject": {
+  "id": "vae_OMIM:616211_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000365",
+    "label": "Hearing impairment"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000470",
+    "label": "Short neck"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000726",
+    "label": "Dementia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001643",
+    "label": "Patent ductus arteriosus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002069",
+    "label": "Bilateral tonic-clonic seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002353",
+    "label": "EEG abnormality"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002553",
+    "label": "Highly arched eyebrow"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011097",
+    "label": "Epileptic spasm"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:616211",
+    "label": "Developmental and epileptic encephalopathy 28"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:616211_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:616211",
+     "label": "Developmental and epileptic encephalopathy 28"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "WWOX"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

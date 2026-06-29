@@ -1,0 +1,174 @@
+{
+ "id": "vae_OMIM:256810_0",
+ "subject": {
+  "id": "vae_OMIM:256810_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000403",
+    "label": "Recurrent otitis media"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000952",
+    "label": "Jaundice"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001270",
+    "label": "Motor delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001298",
+    "label": "Encephalopathy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001324",
+    "label": "Muscle weakness"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001394",
+    "label": "Cirrhosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001397",
+    "label": "Hepatic steatosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001399",
+    "label": "Hepatic failure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001943",
+    "label": "Hypoglycemia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002013",
+    "label": "Vomiting"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002151",
+    "label": "Increased circulating lactate concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002240",
+    "label": "Hepatomegaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002490",
+    "label": "Increased CSF lactate"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003256",
+    "label": "Abnormality of the coagulation cascade"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0006581",
+    "label": "Depletion of mitochondrial DNA in liver"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0008936",
+    "label": "Axial hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0009141",
+    "label": "Depletion of mitochondrial DNA in muscle tissue"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:256810",
+    "label": "Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:256810_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:256810",
+     "label": "Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "MPV17"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

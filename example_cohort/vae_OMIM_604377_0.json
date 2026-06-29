@@ -1,0 +1,114 @@
+{
+ "id": "vae_OMIM:604377_0",
+ "subject": {
+  "id": "vae_OMIM:604377_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000952",
+    "label": "Jaundice"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001639",
+    "label": "Hypertrophic cardiomyopathy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002151",
+    "label": "Increased circulating lactate concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002359",
+    "label": "Frequent falls"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002789",
+    "label": "Tachypnea"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003438",
+    "label": "Absent Achilles reflex"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007002",
+    "label": "Motor axonal neuropathy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0033399",
+    "label": "Persistent fever"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:604377",
+    "label": "Mitochondrial complex IV deficiency, nuclear type 2"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:604377_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:604377",
+     "label": "Mitochondrial complex IV deficiency, nuclear type 2"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SCO2"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

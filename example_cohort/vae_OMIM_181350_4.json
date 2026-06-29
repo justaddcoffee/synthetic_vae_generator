@@ -1,0 +1,126 @@
+{
+ "id": "vae_OMIM:181350_4",
+ "subject": {
+  "id": "vae_OMIM:181350_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0001762",
+    "label": "Talipes equinovarus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001771",
+    "label": "Achilles tendon contracture"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002515",
+    "label": "Waddling gait"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003306",
+    "label": "Spinal rigidity"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0008997",
+    "label": "Proximal upper limb muscle weakness"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0009046",
+    "label": "Difficulty running"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0009060",
+    "label": "Scapular muscle atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0009129",
+    "label": "Upper limb amyotrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011675",
+    "label": "Arrhythmia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0025258",
+    "label": "Stiff neck"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0034391",
+    "label": "Elbow contracture"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:181350",
+    "label": "Emery-Dreifuss muscular dystrophy 2, autosomal dominant"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:181350_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:181350",
+     "label": "Emery-Dreifuss muscular dystrophy 2, autosomal dominant"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "LMNA"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

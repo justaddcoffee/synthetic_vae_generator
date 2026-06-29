@@ -1,0 +1,132 @@
+{
+ "id": "vae_OMIM:613477_4",
+ "subject": {
+  "id": "vae_OMIM:613477_4"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000252",
+    "label": "Microcephaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000729",
+    "label": "Autistic behavior"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001249",
+    "label": "Intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002069",
+    "label": "Bilateral tonic-clonic seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002121",
+    "label": "Generalized non-motor (absence) seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002188",
+    "label": "Delayed CNS myelination"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002384",
+    "label": "Focal impaired awareness seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002521",
+    "label": "Hypsarrhythmia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007018",
+    "label": "Attention deficit hyperactivity disorder"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0007359",
+    "label": "Focal-onset seizure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012469",
+    "label": "Infantile spasms"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:613477",
+    "label": "Developmental and epileptic encephalopathy 5"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:613477_4",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:613477",
+     "label": "Developmental and epileptic encephalopathy 5"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SPTAN1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

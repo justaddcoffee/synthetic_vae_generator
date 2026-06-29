@@ -1,0 +1,126 @@
+{
+ "id": "vae_OMIM:256500_1",
+ "subject": {
+  "id": "vae_OMIM:256500_1"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000098",
+    "label": "Tall stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000962",
+    "label": "Hyperkeratosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000964",
+    "label": "Eczematoid dermatitis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000989",
+    "label": "Pruritus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010783",
+    "label": "Erythema"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0025474",
+    "label": "Erythematous plaque"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0025811",
+    "label": "Trichorrhexis invaginata"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0040189",
+    "label": "Scaling skin"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0045075",
+    "label": "Sparse eyebrow"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0100658",
+    "label": "Cellulitis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0410328",
+    "label": "Egg allergy"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:256500",
+    "label": "Netherton syndrome"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:256500_1",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:256500",
+     "label": "Netherton syndrome"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SPINK5"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

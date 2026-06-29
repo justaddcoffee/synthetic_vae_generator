@@ -1,0 +1,174 @@
+{
+ "id": "vae_OMIM:614800_2",
+ "subject": {
+  "id": "vae_OMIM:614800_2"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000270",
+    "label": "Delayed cranial suture closure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000494",
+    "label": "Downslanted palpebral fissures"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000506",
+    "label": "Telecanthus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000601",
+    "label": "Hypotelorism"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000729",
+    "label": "Autistic behavior"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000938",
+    "label": "Osteopenia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001252",
+    "label": "Hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001508",
+    "label": "Failure to thrive"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001744",
+    "label": "Splenomegaly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001852",
+    "label": "Sandal gap"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001943",
+    "label": "Hypoglycemia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002151",
+    "label": "Increased circulating lactate concentration"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004322",
+    "label": "Short stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0006554",
+    "label": "Acute hepatic failure"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0008936",
+    "label": "Axial hypotonia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011968",
+    "label": "Feeding difficulties"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012444",
+    "label": "Brain atrophy"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:614800",
+    "label": "Short stature, optic nerve atrophy, and Pelger-Huet anomaly"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:614800_2",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:614800",
+     "label": "Short stature, optic nerve atrophy, and Pelger-Huet anomaly"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "NBAS"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

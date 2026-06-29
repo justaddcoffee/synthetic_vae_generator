@@ -1,0 +1,162 @@
+{
+ "id": "vae_OMIM:268310_3",
+ "subject": {
+  "id": "vae_OMIM:268310_3"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000212",
+    "label": "Gingival overgrowth"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000463",
+    "label": "Anteverted nares"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000520",
+    "label": "Proptosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001156",
+    "label": "Brachydactyly"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002007",
+    "label": "Frontal bossing"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002937",
+    "label": "Hemivertebrae"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002984",
+    "label": "Hypoplasia of the radius"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003027",
+    "label": "Mesomelia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0003042",
+    "label": "Elbow dislocation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004322",
+    "label": "Short stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0005280",
+    "label": "Depressed nasal bridge"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0006394",
+    "label": "Limited pronation/supination of forearm"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010034",
+    "label": "Short 1st metacarpal"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010804",
+    "label": "Tented upper lip vermilion"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011220",
+    "label": "Prominent forehead"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011304",
+    "label": "Broad thumb"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0030084",
+    "label": "Clinodactyly"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:268310",
+    "label": "Robinow syndrome, autosomal recessive 1"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:268310_3",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:268310",
+     "label": "Robinow syndrome, autosomal recessive 1"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "ROR2"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

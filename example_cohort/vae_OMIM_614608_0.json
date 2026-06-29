@@ -1,0 +1,198 @@
+{
+ "id": "vae_OMIM:614608_0",
+ "subject": {
+  "id": "vae_OMIM:614608_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000218",
+    "label": "High palate"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000238",
+    "label": "Hydrocephalus"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000280",
+    "label": "Coarse facial features"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000343",
+    "label": "Long philtrum"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000365",
+    "label": "Hearing impairment"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000431",
+    "label": "Wide nasal bridge"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000505",
+    "label": "Visual impairment"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000574",
+    "label": "Thick eyebrow"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000998",
+    "label": "Hypertrichosis"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001263",
+    "label": "Global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001511",
+    "label": "Intrauterine growth retardation"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001561",
+    "label": "Polyhydramnios"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001873",
+    "label": "Thrombocytopenia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002120",
+    "label": "Cerebral cortical atrophy"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002209",
+    "label": "Sparse scalp hair"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0004322",
+    "label": "Short stature"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0008070",
+    "label": "Sparse hair"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0009237",
+    "label": "Short 5th finger"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010055",
+    "label": "Broad hallux"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0010864",
+    "label": "Severe intellectual disability"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011968",
+    "label": "Feeding difficulties"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0012422",
+    "label": "Villous hypertrophy of choroid plexus"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:614608",
+    "label": "Coffin-Siris syndrome 3"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:614608_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:614608",
+     "label": "Coffin-Siris syndrome 3"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "SMARCB1"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

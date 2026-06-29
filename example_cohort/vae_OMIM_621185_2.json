@@ -1,0 +1,132 @@
+{
+ "id": "vae_OMIM:621185_2",
+ "subject": {
+  "id": "vae_OMIM:621185_2"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000132",
+    "label": "Menorrhagia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000260",
+    "label": "Wide anterior fontanel"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000750",
+    "label": "Delayed speech and language development"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0001508",
+    "label": "Failure to thrive"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002014",
+    "label": "Diarrhea"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002141",
+    "label": "Gait imbalance"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0002188",
+    "label": "Delayed CNS myelination"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011344",
+    "label": "Severe global developmental delay"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011419",
+    "label": "Placental abruption"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0025335",
+    "label": "Delayed ability to stand"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0025336",
+    "label": "Delayed ability to sit"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0031936",
+    "label": "Delayed ability to walk"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:621185",
+    "label": "Houge-Janssens syndrome 4"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:621185_2",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:621185",
+     "label": "Houge-Janssens syndrome 4"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "PPP2R5C"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}

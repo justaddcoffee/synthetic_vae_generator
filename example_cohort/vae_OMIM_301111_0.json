@@ -1,0 +1,84 @@
+{
+ "id": "vae_OMIM:301111_0",
+ "subject": {
+  "id": "vae_OMIM:301111_0"
+ },
+ "phenotypicFeatures": [
+  {
+   "type": {
+    "id": "HP:0000047",
+    "label": "Hypospadias"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000278",
+    "label": "Retrognathia"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0000708",
+    "label": "Atypical behavior"
+   }
+  },
+  {
+   "type": {
+    "id": "HP:0011800",
+    "label": "Midface retrusion"
+   }
+  }
+ ],
+ "diseases": [
+  {
+   "term": {
+    "id": "OMIM:301111",
+    "label": "Intellectual developmental disorder, X-linked 112"
+   }
+  }
+ ],
+ "interpretations": [
+  {
+   "id": "vae_OMIM:301111_0",
+   "progressStatus": "SOLVED",
+   "diagnosis": {
+    "disease": {
+     "id": "OMIM:301111",
+     "label": "Intellectual developmental disorder, X-linked 112"
+    },
+    "genomicInterpretations": [
+     {
+      "interpretationStatus": "CAUSATIVE",
+      "variantInterpretation": {
+       "variationDescriptor": {
+        "geneContext": {
+         "symbol": "ZMYM3"
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "metaData": {
+  "createdBy": "synthvae",
+  "resources": [
+   {
+    "id": "hp",
+    "name": "human phenotype ontology",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "namespacePrefix": "HP",
+    "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+   }
+  ],
+  "phenopacketSchemaVersion": "2.0"
+ },
+ "_synthvae": {
+  "synthetic": true,
+  "generator": "vae",
+  "seed": 0,
+  "epochs": 300,
+  "min_cases": 20
+ }
+}
